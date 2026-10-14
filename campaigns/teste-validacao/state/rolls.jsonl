@@ -1,0 +1,4 @@
+{"t": "2026-10-13T13:58:20-03:00", "expr": "2d6+2", "detail": "2d6=[5, 6] + 2", "total": 13, "vs": 8, "reason": "pc-iara-montes: Mente+Investigação, ler quem está nervoso no Fole Velho", "hidden": false}
+{"t": "2026-10-13T13:58:21-03:00", "expr": "2d6+0", "detail": "2d6=[5, 3] + 0", "total": 8, "vs": 8, "reason": "npc-bento-quaresma: Mente-1+? perceber que a forasteira o observa (Mente -1, sem perícia; alvo = 8)", "hidden": true}
+{"t": "2026-10-13T14:02:59-03:00", "expr": "2d6+0", "detail": "2d6=[1, 6] + 0", "total": 7, "vs": 10, "reason": "informantes da mesa do canto (Mente 0, sem perícia — decisão do mestre): ouvir Iara falar em voz baixa no balcão, salão barulhento (Difícil 10)", "hidden": true}
+{"t": "2026-10-13T14:02:59-03:00", "expr": "2d6-1", "detail": "2d6=[3, 2] - 1", "total": 4, "vs": 10, "reason": "npc-bento-quaresma (Mente -1, sem perícia): ouvir o nome 'Tomé Montes' dito em voz baixa no balcão (Difícil 10)", "hidden": true}

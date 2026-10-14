@@ -1,0 +1,20 @@
+# Segredos e configurações pessoais
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+
+# Backups (podem conter campanhas inteiras; versionar só se quiser)
+backups/
+
+# Material de regras de uso pessoal (livros, PDFs)
+systems/*/reference/
+
+# Restaurações interrompidas
+campaigns/.restore-*/
+
+__pycache__/
+*.pyc
+
+# Tipos gerados pelo Claude Code para mods (regenerados a cada carga)
+.claude/skills/*/.claude-plugin/types/

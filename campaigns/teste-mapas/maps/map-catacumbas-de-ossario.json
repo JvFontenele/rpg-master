@@ -1,0 +1,1128 @@
+{
+ "id": "map-catacumbas-de-ossario",
+ "campaign": "teste-mapas",
+ "type": "masmorra",
+ "name": "Catacumbas de Ossário",
+ "description": "",
+ "public_description": "",
+ "generator": {
+  "version": 1,
+  "seed": 77,
+  "params": {
+   "w": 40,
+   "h": 30,
+   "levels": 3,
+   "rooms": 9,
+   "traps": 2,
+   "encounters": 2,
+   "m": 1.5
+  }
+ },
+ "size": {
+  "w": 40,
+  "h": 30,
+  "unit": "m",
+  "per_cell": 1.5,
+  "grid": "quadrada"
+ },
+ "files": {
+  "dados": "maps/map-catacumbas-de-ossario.json",
+  "mestre": [
+   "maps/mestre/map-catacumbas-de-ossario.L1.svg",
+   "maps/mestre/map-catacumbas-de-ossario.L2.svg",
+   "maps/mestre/map-catacumbas-de-ossario.L3.svg"
+  ],
+  "jogador": [
+   "maps/jogador/map-catacumbas-de-ossario.L1.svg",
+   "maps/jogador/map-catacumbas-de-ossario.L2.svg",
+   "maps/jogador/map-catacumbas-de-ossario.L3.svg",
+   "(só aparece após revelar)"
+  ]
+ },
+ "areas": [
+  {
+   "id": "area-catacumbas-de-ossario-l1-sala-1",
+   "name": "Sala 1",
+   "kind": "sala",
+   "level": 1,
+   "x": 13,
+   "y": 8,
+   "w": 5,
+   "h": 5
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-sala-2",
+   "name": "Sala 2",
+   "kind": "sala",
+   "level": 1,
+   "x": 19,
+   "y": 16,
+   "w": 4,
+   "h": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-sala-3",
+   "name": "Sala 3",
+   "kind": "sala",
+   "level": 1,
+   "x": 5,
+   "y": 18,
+   "w": 7,
+   "h": 4
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-sala-4",
+   "name": "Sala 4",
+   "kind": "sala",
+   "level": 1,
+   "x": 28,
+   "y": 9,
+   "w": 8,
+   "h": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-sala-5",
+   "name": "Sala 5",
+   "kind": "sala",
+   "level": 1,
+   "x": 6,
+   "y": 7,
+   "w": 4,
+   "h": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-sala-6",
+   "name": "Sala 6",
+   "kind": "sala",
+   "level": 1,
+   "x": 14,
+   "y": 24,
+   "w": 3,
+   "h": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-sala-7",
+   "name": "Sala 7",
+   "kind": "sala",
+   "level": 1,
+   "x": 3,
+   "y": 2,
+   "w": 6,
+   "h": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-sala-8",
+   "name": "Sala 8",
+   "kind": "sala",
+   "level": 1,
+   "x": 23,
+   "y": 25,
+   "w": 6,
+   "h": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-sala-9",
+   "name": "Sala 9",
+   "kind": "sala",
+   "level": 1,
+   "x": 25,
+   "y": 16,
+   "w": 6,
+   "h": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-sala-10",
+   "name": "Sala 10 (secreta)",
+   "kind": "sala",
+   "level": 1,
+   "x": 21,
+   "y": 4,
+   "w": 4,
+   "h": 3,
+   "secret": true
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-corredor-1",
+   "name": "Corredor 1",
+   "kind": "corredor",
+   "level": 1
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-corredor-2",
+   "name": "Corredor 2",
+   "kind": "corredor",
+   "level": 1
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-corredor-3",
+   "name": "Corredor 3",
+   "kind": "corredor",
+   "level": 1
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-corredor-4",
+   "name": "Corredor 4",
+   "kind": "corredor",
+   "level": 1
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-corredor-5",
+   "name": "Corredor 5",
+   "kind": "corredor",
+   "level": 1
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-corredor-6",
+   "name": "Corredor 6",
+   "kind": "corredor",
+   "level": 1
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-corredor-7",
+   "name": "Corredor 7",
+   "kind": "corredor",
+   "level": 1
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-corredor-8",
+   "name": "Corredor 8",
+   "kind": "corredor",
+   "level": 1
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-corredor-9",
+   "name": "Corredor 9",
+   "kind": "corredor",
+   "level": 1
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-corredor-10",
+   "name": "Corredor 10",
+   "kind": "corredor",
+   "level": 1
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l1-corredor-11",
+   "name": "Corredor 11",
+   "kind": "corredor",
+   "level": 1
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-sala-1",
+   "name": "Sala 1",
+   "kind": "sala",
+   "level": 2,
+   "x": 30,
+   "y": 8,
+   "w": 5,
+   "h": 5
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-sala-2",
+   "name": "Sala 2",
+   "kind": "sala",
+   "level": 2,
+   "x": 8,
+   "y": 2,
+   "w": 6,
+   "h": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-sala-3",
+   "name": "Sala 3",
+   "kind": "sala",
+   "level": 2,
+   "x": 3,
+   "y": 21,
+   "w": 6,
+   "h": 4
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-sala-4",
+   "name": "Sala 4",
+   "kind": "sala",
+   "level": 2,
+   "x": 12,
+   "y": 18,
+   "w": 5,
+   "h": 5
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-sala-5",
+   "name": "Sala 5",
+   "kind": "sala",
+   "level": 2,
+   "x": 17,
+   "y": 3,
+   "w": 7,
+   "h": 6
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-sala-6",
+   "name": "Sala 6",
+   "kind": "sala",
+   "level": 2,
+   "x": 32,
+   "y": 19,
+   "w": 4,
+   "h": 4
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-sala-7",
+   "name": "Sala 7",
+   "kind": "sala",
+   "level": 2,
+   "x": 21,
+   "y": 22,
+   "w": 8,
+   "h": 5
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-sala-8",
+   "name": "Sala 8",
+   "kind": "sala",
+   "level": 2,
+   "x": 10,
+   "y": 9,
+   "w": 4,
+   "h": 5
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-sala-9",
+   "name": "Sala 9",
+   "kind": "sala",
+   "level": 2,
+   "x": 22,
+   "y": 12,
+   "w": 3,
+   "h": 6
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-sala-10",
+   "name": "Sala 10 (secreta)",
+   "kind": "sala",
+   "level": 2,
+   "x": 2,
+   "y": 7,
+   "w": 4,
+   "h": 4,
+   "secret": true
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-corredor-1",
+   "name": "Corredor 1",
+   "kind": "corredor",
+   "level": 2
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-corredor-2",
+   "name": "Corredor 2",
+   "kind": "corredor",
+   "level": 2
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-corredor-3",
+   "name": "Corredor 3",
+   "kind": "corredor",
+   "level": 2
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-corredor-4",
+   "name": "Corredor 4",
+   "kind": "corredor",
+   "level": 2
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-corredor-5",
+   "name": "Corredor 5",
+   "kind": "corredor",
+   "level": 2
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-corredor-6",
+   "name": "Corredor 6",
+   "kind": "corredor",
+   "level": 2
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-corredor-7",
+   "name": "Corredor 7",
+   "kind": "corredor",
+   "level": 2
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-corredor-8",
+   "name": "Corredor 8",
+   "kind": "corredor",
+   "level": 2
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-corredor-9",
+   "name": "Corredor 9",
+   "kind": "corredor",
+   "level": 2
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-corredor-10",
+   "name": "Corredor 10",
+   "kind": "corredor",
+   "level": 2
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l2-corredor-11",
+   "name": "Corredor 11",
+   "kind": "corredor",
+   "level": 2
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-sala-1",
+   "name": "Sala 1",
+   "kind": "sala",
+   "level": 3,
+   "x": 4,
+   "y": 21,
+   "w": 5,
+   "h": 5
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-sala-2",
+   "name": "Sala 2",
+   "kind": "sala",
+   "level": 3,
+   "x": 23,
+   "y": 22,
+   "w": 8,
+   "h": 4
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-sala-3",
+   "name": "Sala 3",
+   "kind": "sala",
+   "level": 3,
+   "x": 26,
+   "y": 5,
+   "w": 6,
+   "h": 4
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-sala-4",
+   "name": "Sala 4",
+   "kind": "sala",
+   "level": 3,
+   "x": 7,
+   "y": 11,
+   "w": 3,
+   "h": 5
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-sala-5",
+   "name": "Sala 5",
+   "kind": "sala",
+   "level": 3,
+   "x": 22,
+   "y": 13,
+   "w": 7,
+   "h": 5
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-sala-6",
+   "name": "Sala 6",
+   "kind": "sala",
+   "level": 3,
+   "x": 2,
+   "y": 4,
+   "w": 3,
+   "h": 4
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-sala-7",
+   "name": "Sala 7",
+   "kind": "sala",
+   "level": 3,
+   "x": 34,
+   "y": 8,
+   "w": 3,
+   "h": 5
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-sala-8",
+   "name": "Sala 8",
+   "kind": "sala",
+   "level": 3,
+   "x": 14,
+   "y": 13,
+   "w": 4,
+   "h": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-sala-9",
+   "name": "Sala 9",
+   "kind": "sala",
+   "level": 3,
+   "x": 33,
+   "y": 19,
+   "w": 4,
+   "h": 5
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-sala-10",
+   "name": "Sala 10 (secreta)",
+   "kind": "sala",
+   "level": 3,
+   "x": 15,
+   "y": 20,
+   "w": 3,
+   "h": 4,
+   "secret": true
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-corredor-1",
+   "name": "Corredor 1",
+   "kind": "corredor",
+   "level": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-corredor-2",
+   "name": "Corredor 2",
+   "kind": "corredor",
+   "level": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-corredor-3",
+   "name": "Corredor 3",
+   "kind": "corredor",
+   "level": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-corredor-4",
+   "name": "Corredor 4",
+   "kind": "corredor",
+   "level": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-corredor-5",
+   "name": "Corredor 5",
+   "kind": "corredor",
+   "level": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-corredor-6",
+   "name": "Corredor 6",
+   "kind": "corredor",
+   "level": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-corredor-7",
+   "name": "Corredor 7",
+   "kind": "corredor",
+   "level": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-corredor-8",
+   "name": "Corredor 8",
+   "kind": "corredor",
+   "level": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-corredor-9",
+   "name": "Corredor 9",
+   "kind": "corredor",
+   "level": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-corredor-10",
+   "name": "Corredor 10",
+   "kind": "corredor",
+   "level": 3
+  },
+  {
+   "id": "area-catacumbas-de-ossario-l3-corredor-11",
+   "name": "Corredor 11",
+   "kind": "corredor",
+   "level": 3
+  }
+ ],
+ "points": [
+  {
+   "id": "poi-catacumbas-de-ossario-l1-porta-secreta",
+   "name": "Porta secreta",
+   "kind": "porta_secreta",
+   "level": 1,
+   "x": 23,
+   "y": 7,
+   "secret": true,
+   "gm_note": "parede falsa; exige busca para encontrar"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l1-entrada",
+   "name": "Entrada",
+   "kind": "entrada",
+   "level": 1,
+   "x": 15,
+   "y": 10
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l1-escada-para-o-nivel-2",
+   "name": "Escada para o nível 2",
+   "kind": "escada_desce",
+   "level": 1,
+   "x": 32,
+   "y": 10,
+   "link": {
+    "level": 2,
+    "x": 32,
+    "y": 10
+   }
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l1-armadilha-fosso-oculto",
+   "name": "Armadilha: fosso oculto",
+   "kind": "armadilha",
+   "level": 1,
+   "x": 28,
+   "y": 14,
+   "secret": true,
+   "gm_note": "dificuldade sugerida: Normal (ajuste ao sistema)"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l1-armadilha-gas-sonifero",
+   "name": "Armadilha: gás sonífero",
+   "kind": "armadilha",
+   "level": 1,
+   "x": 9,
+   "y": 10,
+   "secret": true,
+   "gm_note": "dificuldade sugerida: Normal (ajuste ao sistema)"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l1-tesouro-sala-3",
+   "name": "Tesouro (Sala 3)",
+   "kind": "tesouro",
+   "level": 1,
+   "x": 11,
+   "y": 21,
+   "secret": true,
+   "area": "area-catacumbas-de-ossario-l1-sala-3",
+   "gm_note": "conteúdo a definir conforme o sistema"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l1-tesouro-sala-4",
+   "name": "Tesouro (Sala 4)",
+   "kind": "tesouro",
+   "level": 1,
+   "x": 35,
+   "y": 11,
+   "secret": true,
+   "area": "area-catacumbas-de-ossario-l1-sala-4",
+   "gm_note": "conteúdo a definir conforme o sistema"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l1-tesouro-sala-7",
+   "name": "Tesouro (Sala 7)",
+   "kind": "tesouro",
+   "level": 1,
+   "x": 8,
+   "y": 4,
+   "secret": true,
+   "area": "area-catacumbas-de-ossario-l1-sala-7",
+   "gm_note": "conteúdo a definir conforme o sistema"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l1-tesouro-sala-10-secreta",
+   "name": "Tesouro (Sala 10 (secreta))",
+   "kind": "tesouro",
+   "level": 1,
+   "x": 24,
+   "y": 6,
+   "secret": true,
+   "area": "area-catacumbas-de-ossario-l1-sala-10",
+   "gm_note": "conteúdo a definir conforme o sistema"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l1-encontro-sala-4",
+   "name": "Encontro (Sala 4)",
+   "kind": "encontro",
+   "level": 1,
+   "x": 28,
+   "y": 10,
+   "secret": true,
+   "area": "area-catacumbas-de-ossario-l1-sala-4",
+   "gm_note": "criaturas a definir pelo mestre conforme o sistema"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l1-encontro-sala-5",
+   "name": "Encontro (Sala 5)",
+   "kind": "encontro",
+   "level": 1,
+   "x": 6,
+   "y": 8,
+   "secret": true,
+   "area": "area-catacumbas-de-ossario-l1-sala-5",
+   "gm_note": "criaturas a definir pelo mestre conforme o sistema"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l1-fonte-de-agua-escura-sala-8",
+   "name": "Fonte de água escura (Sala 8)",
+   "kind": "ponto",
+   "level": 1,
+   "x": 26,
+   "y": 25,
+   "area": "area-catacumbas-de-ossario-l1-sala-8"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l1-altar-rachado-sala-9",
+   "name": "Altar rachado (Sala 9)",
+   "kind": "ponto",
+   "level": 1,
+   "x": 28,
+   "y": 16,
+   "area": "area-catacumbas-de-ossario-l1-sala-9"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l2-porta-secreta",
+   "name": "Porta secreta",
+   "kind": "porta_secreta",
+   "level": 2,
+   "x": 4,
+   "y": 11,
+   "secret": true,
+   "gm_note": "parede falsa; exige busca para encontrar"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l2-escada-para-o-nivel-1",
+   "name": "Escada para o nível 1",
+   "kind": "escada_sobe",
+   "level": 2,
+   "x": 32,
+   "y": 10,
+   "link": {
+    "level": 1,
+    "x": 32,
+    "y": 10
+   }
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l2-escada-para-o-nivel-3",
+   "name": "Escada para o nível 3",
+   "kind": "escada_desce",
+   "level": 2,
+   "x": 6,
+   "y": 23,
+   "link": {
+    "level": 3,
+    "x": 6,
+    "y": 23
+   }
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l2-armadilha-gas-sonifero",
+   "name": "Armadilha: gás sonífero",
+   "kind": "armadilha",
+   "level": 2,
+   "x": 20,
+   "y": 11,
+   "secret": true,
+   "gm_note": "dificuldade sugerida: Normal (ajuste ao sistema)"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l2-armadilha-laje-que-desaba",
+   "name": "Armadilha: laje que desaba",
+   "kind": "armadilha",
+   "level": 2,
+   "x": 12,
+   "y": 7,
+   "secret": true,
+   "gm_note": "dificuldade sugerida: Normal (ajuste ao sistema)"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l2-tesouro-sala-3",
+   "name": "Tesouro (Sala 3)",
+   "kind": "tesouro",
+   "level": 2,
+   "x": 8,
+   "y": 24,
+   "secret": true,
+   "area": "area-catacumbas-de-ossario-l2-sala-3",
+   "gm_note": "conteúdo a definir conforme o sistema"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l2-tesouro-sala-10-secreta",
+   "name": "Tesouro (Sala 10 (secreta))",
+   "kind": "tesouro",
+   "level": 2,
+   "x": 5,
+   "y": 10,
+   "secret": true,
+   "area": "area-catacumbas-de-ossario-l2-sala-10",
+   "gm_note": "conteúdo a definir conforme o sistema"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l2-encontro-sala-7",
+   "name": "Encontro (Sala 7)",
+   "kind": "encontro",
+   "level": 2,
+   "x": 21,
+   "y": 24,
+   "secret": true,
+   "area": "area-catacumbas-de-ossario-l2-sala-7",
+   "gm_note": "criaturas a definir pelo mestre conforme o sistema"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l2-encontro-sala-3",
+   "name": "Encontro (Sala 3)",
+   "kind": "encontro",
+   "level": 2,
+   "x": 3,
+   "y": 23,
+   "secret": true,
+   "area": "area-catacumbas-de-ossario-l2-sala-3",
+   "gm_note": "criaturas a definir pelo mestre conforme o sistema"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l2-jaula-vazia-sala-2",
+   "name": "Jaula vazia (Sala 2)",
+   "kind": "ponto",
+   "level": 2,
+   "x": 11,
+   "y": 2,
+   "area": "area-catacumbas-de-ossario-l2-sala-2"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l2-mural-desbotado-sala-6",
+   "name": "Mural desbotado (Sala 6)",
+   "kind": "ponto",
+   "level": 2,
+   "x": 34,
+   "y": 19,
+   "area": "area-catacumbas-de-ossario-l2-sala-6"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l3-porta-secreta",
+   "name": "Porta secreta",
+   "kind": "porta_secreta",
+   "level": 3,
+   "x": 16,
+   "y": 19,
+   "secret": true,
+   "gm_note": "parede falsa; exige busca para encontrar"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l3-escada-para-o-nivel-2",
+   "name": "Escada para o nível 2",
+   "kind": "escada_sobe",
+   "level": 3,
+   "x": 6,
+   "y": 23,
+   "link": {
+    "level": 2,
+    "x": 6,
+    "y": 23
+   }
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l3-armadilha-dardos-na-parede",
+   "name": "Armadilha: dardos na parede",
+   "kind": "armadilha",
+   "level": 3,
+   "x": 8,
+   "y": 17,
+   "secret": true,
+   "gm_note": "dificuldade sugerida: Normal (ajuste ao sistema)"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l3-armadilha-dardos-na-parede-ii",
+   "name": "Armadilha: dardos na parede II",
+   "kind": "armadilha",
+   "level": 3,
+   "x": 16,
+   "y": 6,
+   "secret": true,
+   "gm_note": "dificuldade sugerida: Normal (ajuste ao sistema)"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l3-tesouro-sala-7",
+   "name": "Tesouro (Sala 7)",
+   "kind": "tesouro",
+   "level": 3,
+   "x": 36,
+   "y": 12,
+   "secret": true,
+   "area": "area-catacumbas-de-ossario-l3-sala-7",
+   "gm_note": "conteúdo a definir conforme o sistema"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l3-tesouro-sala-9",
+   "name": "Tesouro (Sala 9)",
+   "kind": "tesouro",
+   "level": 3,
+   "x": 36,
+   "y": 23,
+   "secret": true,
+   "area": "area-catacumbas-de-ossario-l3-sala-9",
+   "gm_note": "conteúdo a definir conforme o sistema"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l3-tesouro-sala-10-secreta",
+   "name": "Tesouro (Sala 10 (secreta))",
+   "kind": "tesouro",
+   "level": 3,
+   "x": 17,
+   "y": 23,
+   "secret": true,
+   "area": "area-catacumbas-de-ossario-l3-sala-10",
+   "gm_note": "conteúdo a definir conforme o sistema"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l3-encontro-sala-7",
+   "name": "Encontro (Sala 7)",
+   "kind": "encontro",
+   "level": 3,
+   "x": 34,
+   "y": 10,
+   "secret": true,
+   "area": "area-catacumbas-de-ossario-l3-sala-7",
+   "gm_note": "criaturas a definir pelo mestre conforme o sistema"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l3-encontro-sala-6",
+   "name": "Encontro (Sala 6)",
+   "kind": "encontro",
+   "level": 3,
+   "x": 2,
+   "y": 6,
+   "secret": true,
+   "area": "area-catacumbas-de-ossario-l3-sala-6",
+   "gm_note": "criaturas a definir pelo mestre conforme o sistema"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l3-mural-desbotado-sala-6",
+   "name": "Mural desbotado (Sala 6)",
+   "kind": "ponto",
+   "level": 3,
+   "x": 3,
+   "y": 4,
+   "area": "area-catacumbas-de-ossario-l3-sala-6"
+  },
+  {
+   "id": "poi-catacumbas-de-ossario-l3-altar-rachado-sala-2",
+   "name": "Altar rachado (Sala 2)",
+   "kind": "ponto",
+   "level": 3,
+   "x": 27,
+   "y": 22,
+   "area": "area-catacumbas-de-ossario-l3-sala-2"
+  }
+ ],
+ "connections": [],
+ "discovery": {
+  "map-catacumbas-de-ossario": "conhecido",
+  "poi-catacumbas-de-ossario-l1-entrada": "visitado",
+  "area-catacumbas-de-ossario-l1-sala-1": "visitado"
+ },
+ "layers": {
+  "levels": [
+   {
+    "grid": [
+     "########################################",
+     "########################################",
+     "###......###############################",
+     "###......###############################",
+     "###......############....###############",
+     "########+############....###############",
+     "########+############....###############",
+     "######....#############S################",
+     "######....###.....#####.################",
+     "######....###.....#####.####........####",
+     "########+...+..<..+.....####....>...####",
+     "#############.....###.######........####",
+     "#############.....###.######+###########",
+     "###############+#####.######.###########",
+     "###############.#####.######.###########",
+     "###############.#####+######+###########",
+     "###############.###....##......#########",
+     "###############...+....++......#########",
+     "#####.......###.###....##......#########",
+     "#####.......###.#####+####+#############",
+     "#####.......+...#####.####.#############",
+     "#####.......###.#####.####.#############",
+     "###############.#####.####.#############",
+     "###############+#####.####.#############",
+     "##############...####.####+#############",
+     "##############...####.#......###########",
+     "##############...####.+......###########",
+     "#######################......###########",
+     "########################################",
+     "########################################"
+    ],
+    "areas": [
+     "........................................",
+     "........................................",
+     "...GGGGGG...............................",
+     "...GGGGGG...............................",
+     "...GGGGGG............JJJJ...............",
+     "........K............JJJJ...............",
+     "........K............JJJJ...............",
+     "......EEEE.............U................",
+     "......EEEE...AAAAA.....U................",
+     "......EEEE...AAAAA.....U....DDDDDDDD....",
+     "........MMMMMAAAAAPPPPUU....DDDDDDDD....",
+     ".............AAAAA...P......DDDDDDDD....",
+     ".............AAAAA...P......N...........",
+     "...............T.....P......N...........",
+     "...............T.....P......N...........",
+     "...............T.....P......N...........",
+     "...............T...BBBB..IIIIII.........",
+     "...............RRRRBBBBLLIIIIII.........",
+     ".....CCCCCCC...R...BBBB..IIIIII.........",
+     ".....CCCCCCC...R.....S....Q.............",
+     ".....CCCCCCCOOOO.....S....Q.............",
+     ".....CCCCCCC...O.....S....Q.............",
+     "...............O.....S....Q.............",
+     "...............O.....S....Q.............",
+     "..............FFF....S....Q.............",
+     "..............FFF....S.HHHHHH...........",
+     "..............FFF....SSHHHHHH...........",
+     ".......................HHHHHH...........",
+     "........................................",
+     "........................................"
+    ]
+   },
+   {
+    "grid": [
+     "########################################",
+     "########################################",
+     "########......##########################",
+     "########......###.......################",
+     "########......###.......################",
+     "###########++####.......################",
+     "###########.....+.......################",
+     "##....#####..####.......################",
+     "##....#####++####.......######.....#####",
+     "##....####....######+#########.....#####",
+     "##....####....######.#########..<..#####",
+     "####S....+....+#####.#########.....#####",
+     "##########.....#####.#...#####.....#####",
+     "##########.....#####.#...#######+#######",
+     "###########+##.#####.#...#######.#######",
+     "###########.##.#####.+...+.......#######",
+     "###########.##.#######...###############",
+     "###########.##+#######...###############",
+     "###########......######+################",
+     "###########......######.########....####",
+     "###########+.....######.########....####",
+     "###......###.....+.....+.......+....####",
+     "###......###.....####........###....####",
+     "###...>..+....+######........#####+#####",
+     "###......############........+.....#####",
+     "#####################........###########",
+     "#####################........###########",
+     "########################################",
+     "########################################",
+     "########################################"
+    ],
+    "areas": [
+     "........................................",
+     "........................................",
+     "........BBBBBB..........................",
+     "........BBBBBB...EEEEEEE................",
+     "........BBBBBB...EEEEEEE................",
+     "...........SK....EEEEEEE................",
+     "...........SKOOOOEEEEEEE................",
+     "..JJJJ.....SK....EEEEEEE................",
+     "..JJJJ.....SK....EEEEEEE......AAAAA.....",
+     "..JJJJ....HHHH......P.........AAAAA.....",
+     "..JJJJ....HHHH......P.........AAAAA.....",
+     "....UUUUUUHHHHM.....P.........AAAAA.....",
+     "..........HHHHM.....P.III.....AAAAA.....",
+     "..........HHHHM.....P.III.......R.......",
+     "...........S..M.....P.III.......R.......",
+     "...........S..M.....PPIIIRRRRRRRR.......",
+     "...........S..M.......III...............",
+     "...........S..M.......III...............",
+     "...........SDDDDD......N................",
+     "...........SDDDDD......N........FFFF....",
+     "...........SDDDDD......N........FFFF....",
+     "...CCCCCC...DDDDDTTTTTTNTTTTTTTTFFFF....",
+     "...CCCCCC...DDDDD....GGGGGGGG...FFFF....",
+     "...CCCCCCLLLLLL......GGGGGGGG.....Q.....",
+     "...CCCCCC............GGGGGGGGQQQQQQ.....",
+     ".....................GGGGGGGG...........",
+     ".....................GGGGGGGG...........",
+     "........................................",
+     "........................................",
+     "........................................"
+    ]
+   },
+   {
+    "grid": [
+     "########################################",
+     "########################################",
+     "########################################",
+     "########################################",
+     "##...###################################",
+     "##...#####################......########",
+     "##...+...........#########......########",
+     "##...###########.#########......+..+####",
+     "###+############.#########......##...###",
+     "###.############.############+####...###",
+     "###.############.############.####...###",
+     "###.###...######.############.####...###",
+     "###.###...######+############.####...###",
+     "###...+...+..+....+..+.......+##########",
+     "#######...####....####........##########",
+     "#######...####....+..+.......+##########",
+     "########+#######+#####.......###########",
+     "########.#######.#####.......###########",
+     "########.#######.##########+############",
+     "########.#######S##########.#####....###",
+     "########+######...#########.#####....###",
+     "####.....######...#########+#####....###",
+     "####.....######...#####........##....###",
+     "####..<..######...#####........##....###",
+     "####.....##############........+...+####",
+     "####.....##############........#########",
+     "########################################",
+     "########################################",
+     "########################################",
+     "########################################"
+    ],
+    "areas": [
+     "........................................",
+     "........................................",
+     "........................................",
+     "........................................",
+     "..FFF...................................",
+     "..FFF.....................CCCCCC........",
+     "..FFFSSSSSSSSSSSS.........CCCCCC........",
+     "..FFF...........S.........CCCCCCKKKK....",
+     "...N............S.........CCCCCC..GGG...",
+     "...N............S............O....GGG...",
+     "...N............S............O....GGG...",
+     "...N...DDD......S............O....GGG...",
+     "...N...DDD......S............O....GGG...",
+     "...NNNNDDDLLLLHHHHTTTTEEEEEEEO..........",
+     ".......DDD....HHHH....EEEEEEEO..........",
+     ".......DDD....HHHHPPPPEEEEEEEO..........",
+     "........R.......U.....EEEEEEE...........",
+     "........R.......U.....EEEEEEE...........",
+     "........R.......U..........Q............",
+     "........R.......U..........Q.....IIII...",
+     "........R......JJJ.........Q.....IIII...",
+     "....AAAAA......JJJ.........Q.....IIII...",
+     "....AAAAA......JJJ.....BBBBBBBB..IIII...",
+     "....AAAAA......JJJ.....BBBBBBBB..IIII...",
+     "....AAAAA..............BBBBBBBBMMMMM....",
+     "....AAAAA..............BBBBBBBB.........",
+     "........................................",
+     "........................................",
+     "........................................",
+     "........................................"
+    ]
+   }
+  ]
+ },
+ "updated": {
+  "at": "2026-10-13T14:33:34-03:00",
+  "reason": "revelado (visitado): poi-catacumbas-de-ossario-l1-entrada, area-catacumbas-de-ossario-l1-sala-1"
+ }
+}

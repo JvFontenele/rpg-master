@@ -1,0 +1,13 @@
+# Configuração da campanha. Chaves de topo simples (chave: valor) são lidas por tools/rpg.py.
+id: teste-validacao
+name: Teste de Validação
+system: aventura-2d6
+genre: fantasia sombria
+tone: investigação tensa
+created: 2026-10-13
+# Quem rola os dados dos PJs: "jogador" (mestre pede e espera) ou "mestre" (rola com a ferramenta, abertamente)
+pc_rolls: mestre
+# Limites de conteúdo / linhas e véus (edite à vontade)
+content_limits: sem violência gráfica contra crianças
+# Regras da casa desta campanha (sobrepõem o sistema; liste aqui, uma por linha com "- ")
+house_rules:

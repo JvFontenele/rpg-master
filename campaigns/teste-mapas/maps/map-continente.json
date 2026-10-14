@@ -1,0 +1,4291 @@
+{
+ "id": "map-continente",
+ "campaign": "teste-mapas",
+ "type": "mundo",
+ "name": "Continente",
+ "description": "",
+ "public_description": "",
+ "generator": {
+  "version": 1,
+  "seed": 2024,
+  "params": {
+   "w": 160,
+   "h": 100,
+   "continents": 2,
+   "land": 0.38,
+   "regions": 6,
+   "density": 6.0,
+   "ruins": 4,
+   "climate": "temperado",
+   "islands": 0.4,
+   "km": 10.0,
+   "_base": [
+    160,
+    100
+   ],
+   "_thr": {
+    "sea": 0.21572013111413935,
+    "shallow": 0.18072013111413934,
+    "hills": 0.7629673946011205,
+    "mount": 0.8731178827439382,
+    "snow": 1.0116962685835544
+   },
+   "_origin": [
+    0.0,
+    0.0
+   ],
+   "_step": 1.0
+  }
+ },
+ "size": {
+  "w": 160,
+  "h": 100,
+  "unit": "km",
+  "per_cell": 10.0,
+  "grid": "quadrada"
+ },
+ "files": {
+  "dados": "maps/map-continente.json",
+  "mestre": [
+   "maps/mestre/map-continente.svg"
+  ],
+  "jogador": [
+   "maps/jogador/map-continente.svg",
+   "(só aparece após revelar)"
+  ]
+ },
+ "areas": [
+  {
+   "id": "reg-arimlar",
+   "name": "Reino de Arimlar",
+   "kind": "regiao",
+   "faction": null
+  },
+  {
+   "id": "reg-luara",
+   "name": "Ducado de Luara",
+   "kind": "regiao",
+   "faction": null
+  },
+  {
+   "id": "reg-peano",
+   "name": "Marca de Peano",
+   "kind": "regiao",
+   "faction": null
+  },
+  {
+   "id": "reg-borago",
+   "name": "Terras de Borago",
+   "kind": "regiao",
+   "faction": null
+  },
+  {
+   "id": "reg-olilar",
+   "name": "Principado de Olilar",
+   "kind": "regiao",
+   "faction": null
+  },
+  {
+   "id": "reg-esmago",
+   "name": "Condado de Esmago",
+   "kind": "regiao",
+   "faction": null
+  }
+ ],
+ "points": [
+  {
+   "id": "poi-arimlar",
+   "name": "Arimlar",
+   "kind": "capital",
+   "x": 48,
+   "y": 76,
+   "region": "reg-arimlar",
+   "port": true
+  },
+  {
+   "id": "poi-luara",
+   "name": "Luara",
+   "kind": "capital",
+   "x": 89,
+   "y": 30,
+   "region": "reg-luara",
+   "port": true
+  },
+  {
+   "id": "poi-peano",
+   "name": "Peano",
+   "kind": "capital",
+   "x": 9,
+   "y": 34,
+   "region": "reg-peano",
+   "port": true
+  },
+  {
+   "id": "poi-borago",
+   "name": "Borago",
+   "kind": "capital",
+   "x": 97,
+   "y": 80,
+   "region": "reg-borago",
+   "port": true
+  },
+  {
+   "id": "poi-olilar",
+   "name": "Olilar",
+   "kind": "capital",
+   "x": 48,
+   "y": 27,
+   "region": "reg-olilar"
+  },
+  {
+   "id": "poi-esmago",
+   "name": "Esmago",
+   "kind": "capital",
+   "x": 9,
+   "y": 80,
+   "region": "reg-esmago",
+   "port": true
+  },
+  {
+   "id": "poi-corbeira",
+   "name": "Corbeira",
+   "kind": "cidade",
+   "x": 88,
+   "y": 84,
+   "region": "reg-borago",
+   "port": true
+  },
+  {
+   "id": "poi-viela",
+   "name": "Viela",
+   "kind": "cidade",
+   "x": 61,
+   "y": 49,
+   "region": "reg-olilar"
+  },
+  {
+   "id": "poi-ravoara",
+   "name": "Ravoara",
+   "kind": "cidade",
+   "x": 73,
+   "y": 45,
+   "region": "reg-luara"
+  },
+  {
+   "id": "poi-calano",
+   "name": "Calano",
+   "kind": "cidade",
+   "x": 44,
+   "y": 67,
+   "region": "reg-arimlar"
+  },
+  {
+   "id": "poi-urvel",
+   "name": "Urvel",
+   "kind": "cidade",
+   "x": 56,
+   "y": 73,
+   "region": "reg-arimlar"
+  },
+  {
+   "id": "poi-satos",
+   "name": "Satos",
+   "kind": "cidade",
+   "x": 110,
+   "y": 64,
+   "region": "reg-borago",
+   "port": true
+  },
+  {
+   "id": "poi-luelres",
+   "name": "Luelres",
+   "kind": "cidade",
+   "x": 62,
+   "y": 81,
+   "region": "reg-arimlar",
+   "port": true
+  },
+  {
+   "id": "poi-junelmont",
+   "name": "Junelmont",
+   "kind": "cidade",
+   "x": 28,
+   "y": 78,
+   "region": "reg-arimlar",
+   "port": true
+  },
+  {
+   "id": "poi-marodor",
+   "name": "Marodor",
+   "kind": "cidade",
+   "x": 69,
+   "y": 30,
+   "region": "reg-luara"
+  },
+  {
+   "id": "poi-peres",
+   "name": "Peres",
+   "kind": "vila",
+   "x": 59,
+   "y": 15,
+   "region": "reg-olilar"
+  },
+  {
+   "id": "poi-junara",
+   "name": "Junara",
+   "kind": "vila",
+   "x": 15,
+   "y": 48,
+   "region": "reg-peano"
+  },
+  {
+   "id": "poi-oliosona",
+   "name": "Oliosona",
+   "kind": "vila",
+   "x": 28,
+   "y": 49,
+   "region": "reg-peano"
+  },
+  {
+   "id": "poi-monentos",
+   "name": "Monentos",
+   "kind": "vila",
+   "x": 80,
+   "y": 38,
+   "region": "reg-luara"
+  },
+  {
+   "id": "poi-fenenona",
+   "name": "Fenenona",
+   "kind": "vila",
+   "x": 38,
+   "y": 15,
+   "region": "reg-olilar",
+   "port": true
+  },
+  {
+   "id": "poi-praelona",
+   "name": "Praelona",
+   "kind": "vila",
+   "x": 77,
+   "y": 23,
+   "region": "reg-luara",
+   "port": true
+  },
+  {
+   "id": "poi-selurela",
+   "name": "Selurela",
+   "kind": "vila",
+   "x": 19,
+   "y": 37,
+   "region": "reg-peano"
+  },
+  {
+   "id": "poi-gilvel",
+   "name": "Gilvel",
+   "kind": "vila",
+   "x": 96,
+   "y": 17,
+   "region": "reg-luara",
+   "port": true
+  },
+  {
+   "id": "poi-selira",
+   "name": "Selira",
+   "kind": "vila",
+   "x": 18,
+   "y": 78,
+   "region": "reg-esmago",
+   "port": true
+  },
+  {
+   "id": "poi-tamidor",
+   "name": "Tamidor",
+   "kind": "vila",
+   "x": 110,
+   "y": 52,
+   "region": "reg-borago",
+   "port": true
+  },
+  {
+   "id": "poi-galmont",
+   "name": "Galmont",
+   "kind": "vila",
+   "x": 19,
+   "y": 67,
+   "region": "reg-arimlar",
+   "port": true
+  },
+  {
+   "id": "poi-serolar",
+   "name": "Serolar",
+   "kind": "vila",
+   "x": 72,
+   "y": 88,
+   "region": "reg-arimlar",
+   "port": true
+  },
+  {
+   "id": "poi-norona",
+   "name": "Norona",
+   "kind": "vila",
+   "x": 107,
+   "y": 75,
+   "region": "reg-borago",
+   "port": true
+  },
+  {
+   "id": "poi-peara",
+   "name": "Peara",
+   "kind": "vila",
+   "x": 51,
+   "y": 19,
+   "region": "reg-olilar"
+  },
+  {
+   "id": "poi-solbeira",
+   "name": "Solbeira",
+   "kind": "vila",
+   "x": 87,
+   "y": 10,
+   "region": "reg-luara",
+   "port": true
+  },
+  {
+   "id": "poi-coranvel",
+   "name": "Coranvel",
+   "kind": "vila",
+   "x": 39,
+   "y": 81,
+   "region": "reg-arimlar",
+   "port": true
+  },
+  {
+   "id": "poi-jungal",
+   "name": "Jungal",
+   "kind": "vila",
+   "x": 69,
+   "y": 76,
+   "region": "reg-arimlar"
+  },
+  {
+   "id": "poi-dunaobeira",
+   "name": "Dunaobeira",
+   "kind": "vila",
+   "x": 92,
+   "y": 68,
+   "region": "reg-borago"
+  },
+  {
+   "id": "poi-torores",
+   "name": "Torores",
+   "kind": "vila",
+   "x": 96,
+   "y": 59,
+   "region": "reg-borago"
+  },
+  {
+   "id": "poi-sernia",
+   "name": "Sernia",
+   "kind": "vila",
+   "x": 66,
+   "y": 39,
+   "region": "reg-olilar"
+  },
+  {
+   "id": "poi-lisedo",
+   "name": "Lisedo",
+   "kind": "vila",
+   "x": 28,
+   "y": 68,
+   "region": "reg-arimlar"
+  },
+  {
+   "id": "poi-torano",
+   "name": "Torano",
+   "kind": "vila",
+   "x": 16,
+   "y": 16,
+   "region": "reg-peano",
+   "port": true
+  },
+  {
+   "id": "poi-coraago",
+   "name": "Coraago",
+   "kind": "vila",
+   "x": 101,
+   "y": 66,
+   "region": "reg-borago"
+  },
+  {
+   "id": "poi-fenbeira",
+   "name": "Fenbeira",
+   "kind": "vila",
+   "x": 93,
+   "y": 51,
+   "region": "reg-borago"
+  },
+  {
+   "id": "poi-pramar",
+   "name": "Pramar",
+   "kind": "vila",
+   "x": 58,
+   "y": 31,
+   "region": "reg-olilar"
+  },
+  {
+   "id": "poi-carenira",
+   "name": "Carenira",
+   "kind": "vila",
+   "x": 50,
+   "y": 61,
+   "region": "reg-arimlar"
+  },
+  {
+   "id": "poi-giliona",
+   "name": "Giliona",
+   "kind": "vila",
+   "x": 68,
+   "y": 66,
+   "region": "reg-arimlar"
+  },
+  {
+   "id": "poi-forte-estona",
+   "name": "Forte Estona",
+   "kind": "fortaleza",
+   "x": 30,
+   "y": 38,
+   "region": "reg-peano"
+  },
+  {
+   "id": "poi-forte-itaona",
+   "name": "Forte Itaona",
+   "kind": "fortaleza",
+   "x": 87,
+   "y": 53,
+   "region": "reg-borago"
+  },
+  {
+   "id": "poi-forte-praeedo",
+   "name": "Forte Praeedo",
+   "kind": "fortaleza",
+   "x": 56,
+   "y": 47,
+   "region": "reg-olilar"
+  },
+  {
+   "id": "poi-forte-garres",
+   "name": "Forte Garres",
+   "kind": "fortaleza",
+   "x": 72,
+   "y": 14,
+   "region": "reg-luara"
+  },
+  {
+   "id": "poi-forte-alarim",
+   "name": "Forte Alarim",
+   "kind": "fortaleza",
+   "x": 76,
+   "y": 71,
+   "region": "reg-arimlar"
+  },
+  {
+   "id": "poi-forte-calimona",
+   "name": "Forte Calimona",
+   "kind": "fortaleza",
+   "x": 13,
+   "y": 60,
+   "region": "reg-peano"
+  },
+  {
+   "id": "poi-ruinas-de-marano",
+   "name": "Ruínas de Marano",
+   "kind": "ruina",
+   "x": 25,
+   "y": 16,
+   "region": "reg-olilar",
+   "secret": false,
+   "gm_note": ""
+  },
+  {
+   "id": "poi-ruinas-de-luuz",
+   "name": "Ruínas de Luuz",
+   "kind": "ruina",
+   "x": 107,
+   "y": 44,
+   "region": "reg-borago",
+   "secret": true,
+   "gm_note": "ruína escondida; os PJs só a encontram explorando ou por pista"
+  },
+  {
+   "id": "poi-ruinas-de-saenano",
+   "name": "Ruínas de Saenano",
+   "kind": "ruina",
+   "x": 36,
+   "y": 73,
+   "region": "reg-arimlar",
+   "secret": false,
+   "gm_note": ""
+  },
+  {
+   "id": "poi-ruinas-de-verbeira",
+   "name": "Ruínas de Verbeira",
+   "kind": "ruina",
+   "x": 80,
+   "y": 81,
+   "region": "reg-borago",
+   "secret": true,
+   "gm_note": "ruína escondida; os PJs só a encontram explorando ou por pista"
+  },
+  {
+   "id": "poi-ponte-de-arimlar",
+   "name": "Ponte de Arimlar",
+   "kind": "ponte",
+   "x": 49,
+   "y": 76,
+   "region": "reg-arimlar"
+  },
+  {
+   "id": "poi-ponte-de-olilar",
+   "name": "Ponte de Olilar",
+   "kind": "ponte",
+   "x": 48,
+   "y": 26,
+   "region": "reg-olilar"
+  },
+  {
+   "id": "poi-ponte-de-peara",
+   "name": "Ponte de Peara",
+   "kind": "ponte",
+   "x": 49,
+   "y": 21,
+   "region": "reg-olilar"
+  },
+  {
+   "id": "poi-ponte-de-peara-ii",
+   "name": "Ponte de Peara II",
+   "kind": "ponte",
+   "x": 53,
+   "y": 17,
+   "region": "reg-olilar"
+  },
+  {
+   "id": "poi-ponte-de-ravoara",
+   "name": "Ponte de Ravoara",
+   "kind": "ponte",
+   "x": 73,
+   "y": 45,
+   "region": "reg-luara"
+  },
+  {
+   "id": "poi-ponte-de-marodor",
+   "name": "Ponte de Marodor",
+   "kind": "ponte",
+   "x": 69,
+   "y": 30,
+   "region": "reg-luara"
+  },
+  {
+   "id": "poi-ponte-de-calano",
+   "name": "Ponte de Calano",
+   "kind": "ponte",
+   "x": 46,
+   "y": 71,
+   "region": "reg-arimlar"
+  },
+  {
+   "id": "poi-ponte-de-borago",
+   "name": "Ponte de Borago",
+   "kind": "ponte",
+   "x": 96,
+   "y": 80,
+   "region": "reg-borago"
+  },
+  {
+   "id": "poi-ponte-de-monentos",
+   "name": "Ponte de Monentos",
+   "kind": "ponte",
+   "x": 77,
+   "y": 41,
+   "region": "reg-luara"
+  },
+  {
+   "id": "poi-ponte-de-monentos-ii",
+   "name": "Ponte de Monentos II",
+   "kind": "ponte",
+   "x": 80,
+   "y": 38,
+   "region": "reg-luara"
+  },
+  {
+   "id": "poi-ponte-de-praelona",
+   "name": "Ponte de Praelona",
+   "kind": "ponte",
+   "x": 77,
+   "y": 23,
+   "region": "reg-luara"
+  },
+  {
+   "id": "poi-ponte-de-peano",
+   "name": "Ponte de Peano",
+   "kind": "ponte",
+   "x": 10,
+   "y": 35,
+   "region": "reg-peano"
+  },
+  {
+   "id": "poi-ponte-de-selurela",
+   "name": "Ponte de Selurela",
+   "kind": "ponte",
+   "x": 19,
+   "y": 37,
+   "region": "reg-peano"
+  },
+  {
+   "id": "poi-ponte-de-oliosona",
+   "name": "Ponte de Oliosona",
+   "kind": "ponte",
+   "x": 28,
+   "y": 49,
+   "region": "reg-peano"
+  },
+  {
+   "id": "poi-ponte-de-junara",
+   "name": "Ponte de Junara",
+   "kind": "ponte",
+   "x": 15,
+   "y": 49,
+   "region": "reg-peano"
+  },
+  {
+   "id": "poi-torre-partida",
+   "name": "Torre Partida",
+   "kind": "ruina",
+   "x": 50,
+   "y": 76,
+   "secret": true,
+   "region": "reg-arimlar"
+  }
+ ],
+ "connections": [],
+ "discovery": {},
+ "layers": {
+  "biomes": [
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--ffffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~-ssffffffff~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--ssss-~~~~~~~~~~~~~~-ssfffffffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~-------------ssssssssssss-~~~~~~~~~~~sssffttttffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~---ssssssssssssssssssssssssss-~~~~~~~~~~ssfffttttfffff~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~---~---------sssssssssssssssssssffssfssssss-~~~~~~~~~-sfffttttfffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~---~~~~-----------sssssssssssssssssffffffffffffffffffssss-~~~~~~~~~-sfffftttfffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~-f--~~--sss-----ssssssssssssssssffffffffffffffffffffffffsss~~~~~~~~~~ssfffffffffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~-fs-----sssssssssssssssssssssssfffffffffffffffffffffffffsss-~~~~~~~~~-sssffffffff.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~--ss---sssssssssssssssssssssfffffffffffffffffffffffffffffsss-~~~~~~~~~ssssfffffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~--ss--ssssssssssssssffsffffffffffffffffffffffffffffffffffffs-~~~~~~~~--ssssffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~---ss--ssssssssssffffffffffffffffffffffffffffffffffffffffffffs-~~~~~~~~~~-ssff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~---sssssssssssssfffffffffffffffffffffffffffffffffffffffffffffs-~~~~~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~-sssssssssssssssffffffffffffffffffffffffffffffffffffffffffffffss--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~-ssssssssssssssssffffffffffffffffffffffffffffffffffffffffffffssssss--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~-ssssssssssssssffffffffffffffffffffffffffffffffffffffffffffffsssssssss--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~-ssssssssssssssfffffffffffffffffffffffffffffffffffffffffffffffssssssssss--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~---sssssssssssssfffffffffffffffffffffffffffffffffffffffffffffffffffssssssss--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~--ssssssssssffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffssssss-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~-sssssssssffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffsssff--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~-sssssssssfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffssffff--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~--sssssssfffffffffffffffffffffffhhhfffffffffffffffffffffffffffffffffffffffssfffff---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~-fsssssssfffffffffffffffffffffffhhhhfffffffffhff..f...ffffffffffffffffffffssfffffff--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-ffsssssssffffffffffffffffffffffhhhhhffffffffffhhhhh.....fffffffffffffffffsssfffffffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-fssssssssffffffffffffffffffffhhhhhhhhffff....hhhhhh......ffffffffffffffffsssssssssssss--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~--fsssssssfffffffffffffffffffhhhhhhmmhhhff..hhhhhhhhh......fffffffffffffffffsssssssssssss---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-ffsssssssfffffffffffffffffhhhhhhhmmmhhhff.hhhhhmmhhhh.....ffffffffffffffffsssssssssssssssf--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-fffsssssfffffffffffffffffhhhhhhhhmmmmhhhhhhhhmhhmmhh.........ffffffffffffssssssssssssssssss--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-fffsssssffffffffffffffffhhhhhhmmmmmmmhhhhhhhhmhmmmhh...........ffffffffffsssssssssssssssssss--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~--fssssssfffffffffffffhfhhhhhhhmmmmmmmmhhhhhhmmmmmmmhh............ffffffffffffssssssssssssss---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~--sssssssfffffffffffffhhfhhhhhmmmmmmmmmmhhhhmmmmmmmmhh......ddddd..fffffffffffffffffssssssss--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-ffsssssffffffffffffffffhhhhhhmmmmm**mmmmhhhmmmmmmhhhhh..ddddddddd..ffffffffffffffffssssssss-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-ffsssssffffffffffffffffhhhhhmmhmmm****mmmmhmmmmmmhhhhhhdddddddddd..fffffffffffffffffsssssss-------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-ffssssfffffffffffffffffhhhhhhmmmmmm****mmmmmmmmmmmhhhhhhddddddddd..fffffffffffffffffssssssss-------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~fsssssffffffffffffffffhhhhhhhhhmmmmm****mm*m*mmmmmmhhh..dddddddd...ffffffffffffffffffffsssssssssss-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-sssssssfffffffffffffffhhhhhhhhhmmmmm*******mmmmmmmhhhh...ddddddd...fffffffffffffffffffffsssssssssss-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-ssssfffffffffffffffffffhmhhhhhhmmmmm********mmmmmmhhhh.....ddddd..fffffffffffffffffffffffsssssssssss-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-ssssfffffffffffffffffffhmhhhhhhhmmm********mmmmmhhhhhh.......ddd..ffffffffffffffffffffffffssssssssss-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-ssssfffffffffffffffffffhhhhhhhhhmmmmmmm*mmmmhhhhhhd..........ddd..fffffffffffffffffffffffffffssssssss~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-ssssssfffffffffffffffffhhhhhhhhhhmmmmmmmmmhhhhddddd.........dddd....ffffffffffffffffffffffffffffsssss-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-ssssssfffffffffffffffffhhhhhhhhhhmmmmmmmhhhhdddddLLL....dd.ddddd.....fffhhffhfffffffffffffffffffsssssf~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-ssssssfffffffffffffffffhhhhhhhhhhhmmmmmmhhhhdddddLL.....dddddddddd.h..fhhhhhhhhffffffffffffffffffssssf-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~ssssssfffffffffffffffffhhhhhhhhhhhmmmmhhhhhhddddd......dddddddddddhhhhhhhhhhhhhfffff...fffffffffffssff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~-ssssssfffffffffffffffhhhhhhhhhhhhhmmhhhhhhdddddd......ddddddddhhhhhhhhhhhhhhhhffff....fffffffffffssff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~ssssssssffffffffffffff.hhhhhhhhhhhmmmhhhhhhdddddhhh.dddddddddhhhhmmmmhhhhmhhhhhfff......ffffffffffffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~-ssssssssfffffffffffff.hhhhhhhhhmmmmhhhhhdhddddhhhhddddddddhhhmmmmmmmmmmmmmhhhhff.......ffffffffffffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~-ssssssssfffffffffffffffhhhhhhhmmmmmhhhhhddddddhhhhhdddddhhhhhmmmmmmmmmmmmmmhhhff.......fffffffffffff.-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~-ssssssssffffffffffffffffhhhhhhhmmmmhhhhhdddhhhhhhhhddddhhhhhmmmmmmm*****mmmhhhhh.......fffffffffff...-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~--ssssssssfffffffffffffffffhhhhhhmmmhhhhddddhhhhhhhhhhdddhhhhhmmmmmm*******mmhhhff........fffffffff.....-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~-ssssssssffffffffffffffffffhhhhhhhhhhhddddhhhhhhhhhhdddhhhhhhmmmm**********mmhhff...d.....ffffffff....--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~--ssssssssfffffffffffffffffhhhhhhhhhhhddddhhhhhhhhhhdddhhhhhhmm************mmhhh...dddd................~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~-sssssssssfffffffffffffffhfhhhhhhhhhhdddddhhhhhhhhddddhhhhhmmm************mmmhh...ddddd...............~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~--ss-sssssfffffffffffffffhhhhhhhhhhhhh...dhhhdddddddddddhhhmmmm************mmhhh.ddddddd.....dd.......-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~-----sssssfffffffffffffffhhhhhhfffhhh.....dddddddddddddhhhmmmm************mmhhhhdddddddd....ddd......-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~-~--ssssffffffffffffffffhhhffff.hh.....ddddddddddddddhhhmmmm*********mmmmmmhhhhhdddddd....dd.......-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~-ssssfffffffffffff.............dddddddddddddddddddhhhmmmm****mmmmmmmmmmmmhhhddddd..............-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~ssfsffffffffffff............ddddddddddddddddddddddhhhmmmmmmmmmmmmmmmmmmmhhhhdddd.............-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~-sffsffffffffff............ddddddddddddddddddddddd.hhhmmmmmmmmmmmmmmhmmmhhhdddd..............~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~-ffffffffffffff...dd.......dddd.dddddddddddddddddd..hhmmmmmmmhhhhhhhhhhhhh.dd........ffffffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~-ffffffff..fff...ddddd....dddddddddddddddddddddddd...hmmmmmmmhhhhhhhhhhhhh..........ffffffff--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~-fffffff....f...ddddddd.ddddddddddddddddddddddddd....hhhhhhhhhhhhhhhhhhfff.........ffffffffs--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~--fff..........dddddddddddddddddd..dddddd..ddd........hhhhhhhhhhffhhhhhffff........fffffffss--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~--fff..........dddddddddddddddddd...ddddd..dd...........fhhhhhffffffffffffffff....ffffffffss-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~-----f..........dddddddddddddddddd..........d..........ffffffffffffffffffffffff....ffffffffss~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~-------..........ddddddd..dddddddd......................ffffffffffffffffffffffffff..ffffffffss~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~--------.........ddddddd..dddddddd.......................fffffffffffffffffffffffffffffffffffs-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~-----------.........ddddddd..dddddddd........................fffffffffffffffffff.fffffff.ffffffs~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~sssssf-~~~-----.......dd..ddd..dddddd..........................ffffffffffffffffff...fffffffffffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~-sfffffff-~~~------....................-----.................ffffffffffffffff.ff.........ffffffff--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~sfffffffff-~~~~----..................--~~~~~~---.....d......fffffffffffffffff..............fffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-sffffffffff~~~~~----........fff.....-~~~~~~~~~~~-...dd......ffffffffffffffffff................--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~sfffhmhfffff~~~~~~~~--.....ffffff..f-~~~~~~~~~~~~~--.dd.....ffffffffffffffffffff...........---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~sfffhhhfffff~~~~~~~~--f..fffffffff--~~~~~~~~~~~~~~~~-d......fffffffffffffffffffff........--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~-sffftffffff~~~~~~~~-------fffff---~~~~~~~~~~~~~~~~~~-......fffffffttffffffffffff........-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~ssffffffff~~~~~~~~~~---~---ff----~~~~~~~~~~~~~~~~~~~-......fffffffttffffffsfffff.......-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~sfffffff-~~~~~~~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~--....ffffffffffffff--ffff.......-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~sssssf~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---..fffffffffff---~~------.----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---.fffffffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----ffffff-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--fff--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+   "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+  ],
+  "regions": [
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   ".......................................................................................BBBBBB...................................................................",
+   ".....................................................................................BBBBBBBBBB.................................................................",
+   "................................................................EEEE................BBBBBBBBBBB.................................................................",
+   "...........................................................EEEEEEEEEEEE............BBBBBBBBBBBBB................................................................",
+   "..............................................EEEEEEEEEEEEEEEEEEEEEEEEEE...........BBBBBBBBBBBBBB...............................................................",
+   "...........................................EEEEEEEEEEEEEEEEEEEEEEEEEEEEEB...........BBBBBBBBBBBBB...............................................................",
+   "..................................EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEB...........BBBBBBBBBBBBB...............................................................",
+   "................C......CEE.....EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBB..........BBBBBBBBBBBBB...............................................................",
+   "................CC.....CEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBB...........BBBBBBBBBBBB...............................................................",
+   ".................CC...CCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBB..........BBBBBBBBBBB................................................................",
+   "..................CC..CCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBB...........BBBBBBBB.................................................................",
+   "..................CC..CCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBB............BBBB...................................................................",
+   "..................CCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBB...................................................................................",
+   "...............CCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBB..................................................................................",
+   "..............CCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBB................................................................................",
+   "..............CCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBB.............................................................................",
+   "..............CCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB...........................................................................",
+   "..............CCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBB..........................................................................",
+   "............CCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBB.........................................................................",
+   "............CCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBB........................................................................",
+   "...........CCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBB.......................................................................",
+   "...........CCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBB......................................................................",
+   "..........CCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBB....................................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBB..................................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBB.................................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBB................................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.............................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBB............................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB...........................................................",
+   "..........CCCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBB............................................................",
+   "..........CCCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBB............................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBB............................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBB............................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB...........................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.....................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDDD....................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEAAAEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDDDDDDD...................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEAAAEAAAAAAAEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDDDDDDDDD...................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCCCCCCEEEEEAAAAAAAAAAAAAAAAAEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDDDDD..................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDDDDDD..................................................",
+   ".........CCCCCCCCCCCCCCCCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...EEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDDDDDDDD.................................................",
+   ".........CCCCCCCCCCCCCCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA..EEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDDDDDDDDD.................................................",
+   ".........CCCCCCCCCCCCCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDDDDDDDDDD.................................................",
+   "..........CCCCCCCCCCCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEEEEEEEBBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDDDDDDDDDDD.................................................",
+   ".........CCCCCCCCCCCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEEEEEBBBBBBBBBBBBBBDDDDDDDDDDDDDDDDDDDDDDDDDDD.................................................",
+   "..........CCCCCCCCCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBDDDDDDDDDDDDDDDDDDDDDDDDDDDDD.................................................",
+   "..........CCCCCCCCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBDDDDDDDDDDDDDDDDDDDDDDDDDDDDD.................................................",
+   "..........CCCCCCCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD.................................................",
+   "..........CCCCCCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD................................................",
+   "..........CCCCCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD.................................................",
+   "...........CCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD................................................",
+   "...........CCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD................................................",
+   "............CC.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD................................................",
+   "................AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD................................................",
+   ".................AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD................................................",
+   "..................AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD................................................",
+   "..................AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD.................................................",
+   "...................AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD.................................................",
+   "...................AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD.................................................",
+   "...................AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD..................................................",
+   "...................AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD..................................................",
+   "....................AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD..................................................",
+   "....................AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD..................................................",
+   "......................AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD..................................................",
+   ".......................AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD..................................................",
+   "........................AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD...................................................",
+   "........................AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD...................................................",
+   "...........FFFFFF.........AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD....................................................",
+   "..........FFFFFFFF..........AAAAAAAAAAAAAAAAAAAA.....AAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD......................................................",
+   ".........FFFFFFFFFF.........AAAAAAAAAAAAAAAAAA...........AAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD.......................................................",
+   ".........FFFFFFFFFFF.........AAAAAAAAAAAAAAAA.............AAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDD.........................................................",
+   "........FFFFFFFFFFFF..........AAAAAAAAAAAAAA................AAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDD.............................................................",
+   "........FFFFFFFFFFFF..........AAAAAAAAAAAA...................AAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDD...............................................................",
+   ".........FFFFFFFFFFF...............AAAAA......................AAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDD...............................................................",
+   ".........FFFFFFFFFF.................AA........................AAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDD................................................................",
+   "..........FFFFFFFF..............................................AAAAAAAAAADDDDDDDD..DDDDDDDDDDD.................................................................",
+   "...........FFFFFF..................................................AAAAAAADDDDDD...........D....................................................................",
+   "....................................................................AAAAAADDDD..................................................................................",
+   ".......................................................................AAADDD...................................................................................",
+   "........................................................................AAD.....................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................",
+   "................................................................................................................................................................"
+  ],
+  "rivers": [
+   {
+    "w": 1,
+    "pts": [
+     [
+      20,
+      36
+     ],
+     [
+      19,
+      37
+     ],
+     [
+      18,
+      37
+     ],
+     [
+      17,
+      38
+     ],
+     [
+      16,
+      39
+     ],
+     [
+      15,
+      38
+     ],
+     [
+      14,
+      37
+     ],
+     [
+      13,
+      37
+     ],
+     [
+      12,
+      37
+     ],
+     [
+      11,
+      36
+     ],
+     [
+      10,
+      35
+     ],
+     [
+      9,
+      35
+     ],
+     [
+      8,
+      36
+     ]
+    ]
+   },
+   {
+    "w": 1,
+    "pts": [
+     [
+      34,
+      49
+     ],
+     [
+      33,
+      50
+     ],
+     [
+      32,
+      49
+     ],
+     [
+      31,
+      49
+     ],
+     [
+      30,
+      48
+     ],
+     [
+      29,
+      49
+     ],
+     [
+      28,
+      49
+     ],
+     [
+      27,
+      49
+     ],
+     [
+      26,
+      49
+     ],
+     [
+      25,
+      48
+     ],
+     [
+      24,
+      48
+     ],
+     [
+      23,
+      48
+     ],
+     [
+      22,
+      48
+     ],
+     [
+      21,
+      49
+     ],
+     [
+      20,
+      49
+     ],
+     [
+      19,
+      49
+     ],
+     [
+      18,
+      48
+     ],
+     [
+      17,
+      49
+     ],
+     [
+      16,
+      50
+     ],
+     [
+      15,
+      49
+     ],
+     [
+      14,
+      50
+     ],
+     [
+      13,
+      49
+     ],
+     [
+      12,
+      48
+     ],
+     [
+      11,
+      47
+     ],
+     [
+      10,
+      46
+     ],
+     [
+      9,
+      45
+     ],
+     [
+      8,
+      44
+     ]
+    ]
+   },
+   {
+    "w": 1,
+    "pts": [
+     [
+      38,
+      22
+     ],
+     [
+      38,
+      21
+     ],
+     [
+      38,
+      20
+     ],
+     [
+      38,
+      19
+     ],
+     [
+      39,
+      18
+     ],
+     [
+      38,
+      17
+     ],
+     [
+      37,
+      16
+     ],
+     [
+      37,
+      15
+     ],
+     [
+      38,
+      14
+     ]
+    ]
+   },
+   {
+    "w": 1,
+    "pts": [
+     [
+      44,
+      68
+     ],
+     [
+      45,
+      69
+     ],
+     [
+      45,
+      70
+     ],
+     [
+      46,
+      71
+     ],
+     [
+      47,
+      72
+     ],
+     [
+      48,
+      73
+     ],
+     [
+      48,
+      74
+     ],
+     [
+      48,
+      75
+     ],
+     [
+      49,
+      76
+     ],
+     [
+      49,
+      77
+     ]
+    ]
+   },
+   {
+    "w": 1,
+    "pts": [
+     [
+      50,
+      31
+     ],
+     [
+      50,
+      30
+     ],
+     [
+      49,
+      29
+     ],
+     [
+      48,
+      28
+     ],
+     [
+      47,
+      27
+     ],
+     [
+      48,
+      26
+     ],
+     [
+      49,
+      25
+     ],
+     [
+      50,
+      24
+     ],
+     [
+      50,
+      23
+     ],
+     [
+      49,
+      22
+     ],
+     [
+      49,
+      21
+     ],
+     [
+      50,
+      20
+     ],
+     [
+      51,
+      19
+     ],
+     [
+      52,
+      18
+     ],
+     [
+      53,
+      17
+     ],
+     [
+      53,
+      16
+     ],
+     [
+      53,
+      15
+     ],
+     [
+      54,
+      14
+     ],
+     [
+      55,
+      13
+     ],
+     [
+      56,
+      12
+     ]
+    ]
+   },
+   {
+    "w": 1,
+    "pts": [
+     [
+      57,
+      71
+     ],
+     [
+      56,
+      72
+     ],
+     [
+      55,
+      73
+     ],
+     [
+      54,
+      74
+     ],
+     [
+      53,
+      75
+     ],
+     [
+      52,
+      76
+     ],
+     [
+      51,
+      77
+     ]
+    ]
+   },
+   {
+    "w": 2,
+    "pts": [
+     [
+      61,
+      50
+     ],
+     [
+      62,
+      51
+     ],
+     [
+      63,
+      50
+     ],
+     [
+      64,
+      51
+     ],
+     [
+      65,
+      51
+     ],
+     [
+      66,
+      50
+     ],
+     [
+      67,
+      50
+     ],
+     [
+      68,
+      49
+     ],
+     [
+      69,
+      49
+     ],
+     [
+      70,
+      48
+     ],
+     [
+      71,
+      47
+     ],
+     [
+      71,
+      46
+     ],
+     [
+      72,
+      45
+     ],
+     [
+      73,
+      45
+     ],
+     [
+      74,
+      44
+     ],
+     [
+      74,
+      43
+     ],
+     [
+      75,
+      42
+     ],
+     [
+      76,
+      41
+     ],
+     [
+      77,
+      41
+     ],
+     [
+      78,
+      40
+     ],
+     [
+      79,
+      39
+     ],
+     [
+      80,
+      38
+     ],
+     [
+      81,
+      37
+     ],
+     [
+      82,
+      37
+     ],
+     [
+      83,
+      36
+     ],
+     [
+      84,
+      35
+     ],
+     [
+      85,
+      34
+     ],
+     [
+      86,
+      33
+     ],
+     [
+      87,
+      32
+     ],
+     [
+      88,
+      32
+     ],
+     [
+      89,
+      31
+     ],
+     [
+      90,
+      30
+     ]
+    ]
+   },
+   {
+    "w": 1,
+    "pts": [
+     [
+      62,
+      20
+     ],
+     [
+      62,
+      19
+     ],
+     [
+      61,
+      18
+     ],
+     [
+      60,
+      17
+     ],
+     [
+      61,
+      16
+     ],
+     [
+      60,
+      15
+     ],
+     [
+      60,
+      14
+     ],
+     [
+      59,
+      13
+     ],
+     [
+      58,
+      12
+     ]
+    ]
+   },
+   {
+    "w": 1,
+    "pts": [
+     [
+      68,
+      31
+     ],
+     [
+      69,
+      30
+     ],
+     [
+      70,
+      29
+     ],
+     [
+      71,
+      28
+     ],
+     [
+      72,
+      28
+     ],
+     [
+      73,
+      27
+     ],
+     [
+      74,
+      26
+     ],
+     [
+      75,
+      25
+     ],
+     [
+      76,
+      24
+     ],
+     [
+      77,
+      23
+     ],
+     [
+      78,
+      22
+     ]
+    ]
+   },
+   {
+    "w": 1,
+    "pts": [
+     [
+      89,
+      80
+     ],
+     [
+      89,
+      81
+     ],
+     [
+      88,
+      82
+     ],
+     [
+      87,
+      83
+     ],
+     [
+      87,
+      84
+     ],
+     [
+      86,
+      85
+     ]
+    ]
+   },
+   {
+    "w": 1,
+    "pts": [
+     [
+      91,
+      75
+     ],
+     [
+      92,
+      76
+     ],
+     [
+      93,
+      77
+     ],
+     [
+      94,
+      78
+     ],
+     [
+      95,
+      79
+     ],
+     [
+      96,
+      80
+     ],
+     [
+      97,
+      81
+     ]
+    ]
+   }
+  ],
+  "roads": [
+   [
+    [
+     96,
+     17
+    ],
+    [
+     95,
+     16
+    ],
+    [
+     94,
+     15
+    ],
+    [
+     93,
+     14
+    ],
+    [
+     92,
+     13
+    ],
+    [
+     91,
+     12
+    ],
+    [
+     90,
+     11
+    ],
+    [
+     89,
+     11
+    ],
+    [
+     88,
+     11
+    ],
+    [
+     87,
+     10
+    ]
+   ],
+   [
+    [
+     61,
+     49
+    ],
+    [
+     60,
+     48
+    ],
+    [
+     59,
+     48
+    ],
+    [
+     58,
+     48
+    ],
+    [
+     57,
+     48
+    ],
+    [
+     56,
+     47
+    ]
+   ],
+   [
+    [
+     93,
+     51
+    ],
+    [
+     92,
+     52
+    ],
+    [
+     91,
+     53
+    ],
+    [
+     90,
+     53
+    ],
+    [
+     89,
+     53
+    ],
+    [
+     88,
+     53
+    ],
+    [
+     87,
+     53
+    ]
+   ],
+   [
+    [
+     44,
+     67
+    ],
+    [
+     44,
+     66
+    ],
+    [
+     45,
+     65
+    ],
+    [
+     46,
+     64
+    ],
+    [
+     47,
+     64
+    ],
+    [
+     48,
+     63
+    ],
+    [
+     49,
+     62
+    ],
+    [
+     50,
+     61
+    ]
+   ],
+   [
+    [
+     48,
+     76
+    ],
+    [
+     49,
+     76
+    ],
+    [
+     50,
+     76
+    ],
+    [
+     51,
+     76
+    ],
+    [
+     52,
+     76
+    ],
+    [
+     53,
+     76
+    ],
+    [
+     54,
+     75
+    ],
+    [
+     55,
+     74
+    ],
+    [
+     56,
+     73
+    ]
+   ],
+   [
+    [
+     48,
+     27
+    ],
+    [
+     48,
+     26
+    ],
+    [
+     48,
+     25
+    ],
+    [
+     48,
+     24
+    ],
+    [
+     48,
+     23
+    ],
+    [
+     48,
+     22
+    ],
+    [
+     49,
+     21
+    ],
+    [
+     50,
+     20
+    ],
+    [
+     51,
+     19
+    ]
+   ],
+   [
+    [
+     96,
+     59
+    ],
+    [
+     96,
+     58
+    ],
+    [
+     96,
+     57
+    ],
+    [
+     96,
+     56
+    ],
+    [
+     96,
+     55
+    ],
+    [
+     96,
+     54
+    ],
+    [
+     95,
+     53
+    ],
+    [
+     94,
+     52
+    ],
+    [
+     93,
+     51
+    ]
+   ],
+   [
+    [
+     62,
+     81
+    ],
+    [
+     63,
+     80
+    ],
+    [
+     64,
+     79
+    ],
+    [
+     65,
+     79
+    ],
+    [
+     66,
+     78
+    ],
+    [
+     67,
+     78
+    ],
+    [
+     68,
+     77
+    ],
+    [
+     69,
+     76
+    ]
+   ],
+   [
+    [
+     69,
+     76
+    ],
+    [
+     70,
+     75
+    ],
+    [
+     71,
+     74
+    ],
+    [
+     72,
+     74
+    ],
+    [
+     73,
+     74
+    ],
+    [
+     74,
+     73
+    ],
+    [
+     75,
+     72
+    ],
+    [
+     76,
+     71
+    ]
+   ],
+   [
+    [
+     96,
+     59
+    ],
+    [
+     97,
+     60
+    ],
+    [
+     98,
+     61
+    ],
+    [
+     99,
+     62
+    ],
+    [
+     99,
+     63
+    ],
+    [
+     99,
+     64
+    ],
+    [
+     100,
+     65
+    ],
+    [
+     101,
+     66
+    ]
+   ],
+   [
+    [
+     59,
+     15
+    ],
+    [
+     58,
+     15
+    ],
+    [
+     57,
+     15
+    ],
+    [
+     56,
+     15
+    ],
+    [
+     55,
+     15
+    ],
+    [
+     54,
+     16
+    ],
+    [
+     53,
+     17
+    ],
+    [
+     52,
+     18
+    ],
+    [
+     51,
+     19
+    ]
+   ],
+   [
+    [
+     19,
+     67
+    ],
+    [
+     20,
+     67
+    ],
+    [
+     21,
+     67
+    ],
+    [
+     22,
+     67
+    ],
+    [
+     23,
+     67
+    ],
+    [
+     24,
+     67
+    ],
+    [
+     25,
+     67
+    ],
+    [
+     26,
+     67
+    ],
+    [
+     27,
+     68
+    ],
+    [
+     28,
+     68
+    ]
+   ],
+   [
+    [
+     73,
+     45
+    ],
+    [
+     72,
+     44
+    ],
+    [
+     71,
+     43
+    ],
+    [
+     70,
+     42
+    ],
+    [
+     69,
+     41
+    ],
+    [
+     68,
+     40
+    ],
+    [
+     67,
+     39
+    ],
+    [
+     66,
+     39
+    ]
+   ],
+   [
+    [
+     110,
+     64
+    ],
+    [
+     109,
+     64
+    ],
+    [
+     108,
+     64
+    ],
+    [
+     107,
+     64
+    ],
+    [
+     106,
+     64
+    ],
+    [
+     105,
+     64
+    ],
+    [
+     104,
+     64
+    ],
+    [
+     103,
+     64
+    ],
+    [
+     102,
+     65
+    ],
+    [
+     101,
+     66
+    ]
+   ],
+   [
+    [
+     19,
+     67
+    ],
+    [
+     19,
+     66
+    ],
+    [
+     19,
+     65
+    ],
+    [
+     18,
+     64
+    ],
+    [
+     17,
+     63
+    ],
+    [
+     16,
+     62
+    ],
+    [
+     15,
+     61
+    ],
+    [
+     14,
+     60
+    ],
+    [
+     13,
+     60
+    ]
+   ],
+   [
+    [
+     92,
+     68
+    ],
+    [
+     93,
+     68
+    ],
+    [
+     94,
+     68
+    ],
+    [
+     95,
+     68
+    ],
+    [
+     96,
+     68
+    ],
+    [
+     97,
+     68
+    ],
+    [
+     98,
+     68
+    ],
+    [
+     99,
+     68
+    ],
+    [
+     100,
+     67
+    ],
+    [
+     101,
+     66
+    ]
+   ],
+   [
+    [
+     68,
+     66
+    ],
+    [
+     69,
+     67
+    ],
+    [
+     70,
+     68
+    ],
+    [
+     70,
+     69
+    ],
+    [
+     71,
+     70
+    ],
+    [
+     72,
+     71
+    ],
+    [
+     73,
+     71
+    ],
+    [
+     74,
+     71
+    ],
+    [
+     75,
+     72
+    ],
+    [
+     76,
+     71
+    ]
+   ],
+   [
+    [
+     69,
+     30
+    ],
+    [
+     69,
+     31
+    ],
+    [
+     69,
+     32
+    ],
+    [
+     69,
+     33
+    ],
+    [
+     69,
+     34
+    ],
+    [
+     69,
+     35
+    ],
+    [
+     69,
+     36
+    ],
+    [
+     68,
+     37
+    ],
+    [
+     67,
+     38
+    ],
+    [
+     66,
+     39
+    ]
+   ],
+   [
+    [
+     48,
+     76
+    ],
+    [
+     48,
+     75
+    ],
+    [
+     47,
+     74
+    ],
+    [
+     46,
+     73
+    ],
+    [
+     46,
+     72
+    ],
+    [
+     46,
+     71
+    ],
+    [
+     46,
+     70
+    ],
+    [
+     46,
+     69
+    ],
+    [
+     45,
+     68
+    ],
+    [
+     44,
+     67
+    ]
+   ],
+   [
+    [
+     97,
+     80
+    ],
+    [
+     96,
+     80
+    ],
+    [
+     95,
+     80
+    ],
+    [
+     94,
+     80
+    ],
+    [
+     93,
+     80
+    ],
+    [
+     92,
+     80
+    ],
+    [
+     91,
+     81
+    ],
+    [
+     90,
+     82
+    ],
+    [
+     89,
+     83
+    ],
+    [
+     88,
+     84
+    ]
+   ],
+   [
+    [
+     73,
+     45
+    ],
+    [
+     74,
+     44
+    ],
+    [
+     75,
+     43
+    ],
+    [
+     76,
+     42
+    ],
+    [
+     77,
+     41
+    ],
+    [
+     78,
+     40
+    ],
+    [
+     79,
+     39
+    ],
+    [
+     80,
+     38
+    ]
+   ],
+   [
+    [
+     56,
+     73
+    ],
+    [
+     57,
+     74
+    ],
+    [
+     58,
+     75
+    ],
+    [
+     58,
+     76
+    ],
+    [
+     59,
+     77
+    ],
+    [
+     59,
+     78
+    ],
+    [
+     60,
+     79
+    ],
+    [
+     61,
+     80
+    ],
+    [
+     62,
+     81
+    ]
+   ],
+   [
+    [
+     28,
+     78
+    ],
+    [
+     28,
+     77
+    ],
+    [
+     28,
+     76
+    ],
+    [
+     28,
+     75
+    ],
+    [
+     28,
+     74
+    ],
+    [
+     28,
+     73
+    ],
+    [
+     28,
+     72
+    ],
+    [
+     28,
+     71
+    ],
+    [
+     28,
+     70
+    ],
+    [
+     28,
+     69
+    ],
+    [
+     28,
+     68
+    ]
+   ],
+   [
+    [
+     48,
+     76
+    ],
+    [
+     47,
+     77
+    ],
+    [
+     46,
+     77
+    ],
+    [
+     45,
+     77
+    ],
+    [
+     44,
+     77
+    ],
+    [
+     43,
+     78
+    ],
+    [
+     42,
+     79
+    ],
+    [
+     41,
+     80
+    ],
+    [
+     40,
+     80
+    ],
+    [
+     39,
+     81
+    ]
+   ],
+   [
+    [
+     77,
+     23
+    ],
+    [
+     76,
+     22
+    ],
+    [
+     75,
+     21
+    ],
+    [
+     74,
+     20
+    ],
+    [
+     73,
+     19
+    ],
+    [
+     73,
+     18
+    ],
+    [
+     73,
+     17
+    ],
+    [
+     73,
+     16
+    ],
+    [
+     72,
+     15
+    ],
+    [
+     72,
+     14
+    ]
+   ],
+   [
+    [
+     9,
+     34
+    ],
+    [
+     10,
+     35
+    ],
+    [
+     11,
+     36
+    ],
+    [
+     12,
+     36
+    ],
+    [
+     13,
+     36
+    ],
+    [
+     14,
+     36
+    ],
+    [
+     15,
+     36
+    ],
+    [
+     16,
+     36
+    ],
+    [
+     17,
+     36
+    ],
+    [
+     18,
+     36
+    ],
+    [
+     19,
+     37
+    ]
+   ],
+   [
+    [
+     69,
+     30
+    ],
+    [
+     69,
+     29
+    ],
+    [
+     69,
+     28
+    ],
+    [
+     69,
+     27
+    ],
+    [
+     70,
+     26
+    ],
+    [
+     71,
+     25
+    ],
+    [
+     72,
+     24
+    ],
+    [
+     73,
+     23
+    ],
+    [
+     74,
+     22
+    ],
+    [
+     75,
+     21
+    ],
+    [
+     76,
+     22
+    ],
+    [
+     77,
+     23
+    ]
+   ],
+   [
+    [
+     48,
+     27
+    ],
+    [
+     49,
+     27
+    ],
+    [
+     50,
+     27
+    ],
+    [
+     51,
+     27
+    ],
+    [
+     52,
+     27
+    ],
+    [
+     53,
+     27
+    ],
+    [
+     54,
+     28
+    ],
+    [
+     55,
+     29
+    ],
+    [
+     56,
+     30
+    ],
+    [
+     57,
+     31
+    ],
+    [
+     58,
+     31
+    ]
+   ],
+   [
+    [
+     107,
+     75
+    ],
+    [
+     107,
+     74
+    ],
+    [
+     106,
+     73
+    ],
+    [
+     105,
+     72
+    ],
+    [
+     104,
+     71
+    ],
+    [
+     103,
+     70
+    ],
+    [
+     102,
+     69
+    ],
+    [
+     101,
+     68
+    ],
+    [
+     100,
+     67
+    ],
+    [
+     101,
+     66
+    ]
+   ],
+   [
+    [
+     69,
+     30
+    ],
+    [
+     69,
+     31
+    ],
+    [
+     68,
+     31
+    ],
+    [
+     67,
+     31
+    ],
+    [
+     66,
+     31
+    ],
+    [
+     65,
+     31
+    ],
+    [
+     64,
+     32
+    ],
+    [
+     63,
+     32
+    ],
+    [
+     62,
+     32
+    ],
+    [
+     61,
+     32
+    ],
+    [
+     60,
+     31
+    ],
+    [
+     59,
+     31
+    ],
+    [
+     58,
+     31
+    ]
+   ],
+   [
+    [
+     19,
+     37
+    ],
+    [
+     20,
+     37
+    ],
+    [
+     21,
+     37
+    ],
+    [
+     22,
+     37
+    ],
+    [
+     23,
+     37
+    ],
+    [
+     24,
+     37
+    ],
+    [
+     25,
+     37
+    ],
+    [
+     26,
+     37
+    ],
+    [
+     27,
+     37
+    ],
+    [
+     28,
+     37
+    ],
+    [
+     29,
+     38
+    ],
+    [
+     30,
+     38
+    ]
+   ],
+   [
+    [
+     97,
+     80
+    ],
+    [
+     98,
+     80
+    ],
+    [
+     99,
+     79
+    ],
+    [
+     100,
+     79
+    ],
+    [
+     101,
+     79
+    ],
+    [
+     102,
+     79
+    ],
+    [
+     103,
+     78
+    ],
+    [
+     104,
+     78
+    ],
+    [
+     105,
+     77
+    ],
+    [
+     106,
+     76
+    ],
+    [
+     107,
+     75
+    ]
+   ],
+   [
+    [
+     61,
+     49
+    ],
+    [
+     62,
+     48
+    ],
+    [
+     63,
+     47
+    ],
+    [
+     63,
+     46
+    ],
+    [
+     64,
+     45
+    ],
+    [
+     64,
+     44
+    ],
+    [
+     64,
+     43
+    ],
+    [
+     65,
+     42
+    ],
+    [
+     65,
+     41
+    ],
+    [
+     65,
+     40
+    ],
+    [
+     66,
+     39
+    ]
+   ],
+   [
+    [
+     28,
+     49
+    ],
+    [
+     28,
+     48
+    ],
+    [
+     28,
+     47
+    ],
+    [
+     28,
+     46
+    ],
+    [
+     28,
+     45
+    ],
+    [
+     28,
+     44
+    ],
+    [
+     28,
+     43
+    ],
+    [
+     28,
+     42
+    ],
+    [
+     28,
+     41
+    ],
+    [
+     28,
+     40
+    ],
+    [
+     28,
+     39
+    ],
+    [
+     29,
+     38
+    ],
+    [
+     30,
+     38
+    ]
+   ],
+   [
+    [
+     110,
+     64
+    ],
+    [
+     109,
+     64
+    ],
+    [
+     108,
+     64
+    ],
+    [
+     107,
+     64
+    ],
+    [
+     106,
+     64
+    ],
+    [
+     105,
+     64
+    ],
+    [
+     104,
+     64
+    ],
+    [
+     103,
+     64
+    ],
+    [
+     102,
+     65
+    ],
+    [
+     101,
+     66
+    ],
+    [
+     100,
+     67
+    ],
+    [
+     101,
+     68
+    ],
+    [
+     102,
+     69
+    ],
+    [
+     103,
+     70
+    ],
+    [
+     104,
+     71
+    ],
+    [
+     105,
+     72
+    ],
+    [
+     106,
+     73
+    ],
+    [
+     107,
+     74
+    ],
+    [
+     107,
+     75
+    ]
+   ],
+   [
+    [
+     28,
+     78
+    ],
+    [
+     29,
+     78
+    ],
+    [
+     30,
+     78
+    ],
+    [
+     31,
+     78
+    ],
+    [
+     32,
+     78
+    ],
+    [
+     33,
+     78
+    ],
+    [
+     34,
+     78
+    ],
+    [
+     35,
+     78
+    ],
+    [
+     36,
+     79
+    ],
+    [
+     37,
+     79
+    ],
+    [
+     38,
+     80
+    ],
+    [
+     39,
+     81
+    ]
+   ],
+   [
+    [
+     15,
+     48
+    ],
+    [
+     15,
+     47
+    ],
+    [
+     15,
+     46
+    ],
+    [
+     15,
+     45
+    ],
+    [
+     16,
+     44
+    ],
+    [
+     16,
+     43
+    ],
+    [
+     16,
+     42
+    ],
+    [
+     16,
+     41
+    ],
+    [
+     16,
+     40
+    ],
+    [
+     17,
+     39
+    ],
+    [
+     18,
+     38
+    ],
+    [
+     19,
+     37
+    ]
+   ],
+   [
+    [
+     110,
+     64
+    ],
+    [
+     110,
+     63
+    ],
+    [
+     110,
+     62
+    ],
+    [
+     110,
+     61
+    ],
+    [
+     110,
+     60
+    ],
+    [
+     110,
+     59
+    ],
+    [
+     110,
+     58
+    ],
+    [
+     110,
+     57
+    ],
+    [
+     110,
+     56
+    ],
+    [
+     110,
+     55
+    ],
+    [
+     110,
+     54
+    ],
+    [
+     110,
+     53
+    ],
+    [
+     110,
+     52
+    ]
+   ],
+   [
+    [
+     89,
+     30
+    ],
+    [
+     88,
+     30
+    ],
+    [
+     87,
+     30
+    ],
+    [
+     86,
+     31
+    ],
+    [
+     85,
+     32
+    ],
+    [
+     84,
+     33
+    ],
+    [
+     83,
+     34
+    ],
+    [
+     82,
+     35
+    ],
+    [
+     81,
+     36
+    ],
+    [
+     81,
+     37
+    ],
+    [
+     80,
+     38
+    ]
+   ],
+   [
+    [
+     15,
+     48
+    ],
+    [
+     15,
+     49
+    ],
+    [
+     15,
+     50
+    ],
+    [
+     15,
+     51
+    ],
+    [
+     16,
+     52
+    ],
+    [
+     17,
+     53
+    ],
+    [
+     18,
+     54
+    ],
+    [
+     18,
+     55
+    ],
+    [
+     18,
+     56
+    ],
+    [
+     17,
+     57
+    ],
+    [
+     16,
+     58
+    ],
+    [
+     15,
+     59
+    ],
+    [
+     14,
+     60
+    ],
+    [
+     13,
+     60
+    ]
+   ],
+   [
+    [
+     62,
+     81
+    ],
+    [
+     63,
+     82
+    ],
+    [
+     64,
+     83
+    ],
+    [
+     65,
+     83
+    ],
+    [
+     66,
+     84
+    ],
+    [
+     67,
+     85
+    ],
+    [
+     68,
+     86
+    ],
+    [
+     69,
+     86
+    ],
+    [
+     70,
+     86
+    ],
+    [
+     71,
+     87
+    ],
+    [
+     72,
+     88
+    ]
+   ],
+   [
+    [
+     15,
+     48
+    ],
+    [
+     15,
+     47
+    ],
+    [
+     15,
+     46
+    ],
+    [
+     15,
+     45
+    ],
+    [
+     16,
+     44
+    ],
+    [
+     16,
+     43
+    ],
+    [
+     16,
+     42
+    ],
+    [
+     16,
+     41
+    ],
+    [
+     16,
+     40
+    ],
+    [
+     17,
+     39
+    ],
+    [
+     18,
+     38
+    ],
+    [
+     19,
+     37
+    ],
+    [
+     20,
+     37
+    ],
+    [
+     21,
+     37
+    ],
+    [
+     22,
+     37
+    ],
+    [
+     23,
+     37
+    ],
+    [
+     24,
+     37
+    ],
+    [
+     25,
+     37
+    ],
+    [
+     26,
+     37
+    ],
+    [
+     27,
+     37
+    ],
+    [
+     28,
+     37
+    ],
+    [
+     29,
+     38
+    ],
+    [
+     28,
+     39
+    ],
+    [
+     28,
+     40
+    ],
+    [
+     28,
+     41
+    ],
+    [
+     28,
+     42
+    ],
+    [
+     28,
+     43
+    ],
+    [
+     28,
+     44
+    ],
+    [
+     28,
+     45
+    ],
+    [
+     28,
+     46
+    ],
+    [
+     28,
+     47
+    ],
+    [
+     28,
+     48
+    ],
+    [
+     28,
+     49
+    ]
+   ],
+   [
+    [
+     44,
+     67
+    ],
+    [
+     45,
+     68
+    ],
+    [
+     46,
+     69
+    ],
+    [
+     46,
+     70
+    ],
+    [
+     46,
+     71
+    ],
+    [
+     46,
+     72
+    ],
+    [
+     46,
+     73
+    ],
+    [
+     47,
+     74
+    ],
+    [
+     48,
+     75
+    ],
+    [
+     49,
+     76
+    ],
+    [
+     50,
+     76
+    ],
+    [
+     51,
+     76
+    ],
+    [
+     52,
+     76
+    ],
+    [
+     53,
+     76
+    ],
+    [
+     54,
+     75
+    ],
+    [
+     55,
+     74
+    ],
+    [
+     56,
+     73
+    ]
+   ],
+   [
+    [
+     38,
+     15
+    ],
+    [
+     39,
+     16
+    ],
+    [
+     40,
+     17
+    ],
+    [
+     41,
+     18
+    ],
+    [
+     42,
+     19
+    ],
+    [
+     43,
+     19
+    ],
+    [
+     44,
+     19
+    ],
+    [
+     45,
+     19
+    ],
+    [
+     46,
+     20
+    ],
+    [
+     47,
+     21
+    ],
+    [
+     48,
+     22
+    ],
+    [
+     49,
+     21
+    ],
+    [
+     50,
+     20
+    ],
+    [
+     51,
+     19
+    ]
+   ],
+   [
+    [
+     56,
+     73
+    ],
+    [
+     57,
+     73
+    ],
+    [
+     58,
+     73
+    ],
+    [
+     59,
+     73
+    ],
+    [
+     60,
+     73
+    ],
+    [
+     61,
+     73
+    ],
+    [
+     62,
+     73
+    ],
+    [
+     63,
+     73
+    ],
+    [
+     64,
+     72
+    ],
+    [
+     65,
+     71
+    ],
+    [
+     66,
+     70
+    ],
+    [
+     67,
+     69
+    ],
+    [
+     68,
+     68
+    ],
+    [
+     69,
+     67
+    ],
+    [
+     68,
+     66
+    ]
+   ],
+   [
+    [
+     97,
+     80
+    ],
+    [
+     98,
+     80
+    ],
+    [
+     99,
+     79
+    ],
+    [
+     100,
+     79
+    ],
+    [
+     101,
+     79
+    ],
+    [
+     102,
+     79
+    ],
+    [
+     103,
+     78
+    ],
+    [
+     104,
+     78
+    ],
+    [
+     105,
+     77
+    ],
+    [
+     106,
+     76
+    ],
+    [
+     107,
+     75
+    ],
+    [
+     107,
+     74
+    ],
+    [
+     106,
+     73
+    ],
+    [
+     105,
+     72
+    ],
+    [
+     104,
+     71
+    ],
+    [
+     103,
+     70
+    ],
+    [
+     102,
+     69
+    ],
+    [
+     101,
+     68
+    ],
+    [
+     100,
+     67
+    ],
+    [
+     101,
+     66
+    ]
+   ],
+   [
+    [
+     50,
+     61
+    ],
+    [
+     50,
+     60
+    ],
+    [
+     50,
+     59
+    ],
+    [
+     50,
+     58
+    ],
+    [
+     50,
+     57
+    ],
+    [
+     50,
+     56
+    ],
+    [
+     51,
+     55
+    ],
+    [
+     52,
+     54
+    ],
+    [
+     52,
+     53
+    ],
+    [
+     53,
+     52
+    ],
+    [
+     54,
+     51
+    ],
+    [
+     55,
+     50
+    ],
+    [
+     56,
+     49
+    ],
+    [
+     57,
+     48
+    ],
+    [
+     56,
+     47
+    ]
+   ],
+   [
+    [
+     48,
+     27
+    ],
+    [
+     48,
+     26
+    ],
+    [
+     48,
+     25
+    ],
+    [
+     48,
+     24
+    ],
+    [
+     48,
+     23
+    ],
+    [
+     48,
+     22
+    ],
+    [
+     47,
+     21
+    ],
+    [
+     46,
+     20
+    ],
+    [
+     45,
+     19
+    ],
+    [
+     44,
+     19
+    ],
+    [
+     43,
+     19
+    ],
+    [
+     42,
+     19
+    ],
+    [
+     41,
+     18
+    ],
+    [
+     40,
+     17
+    ],
+    [
+     39,
+     16
+    ],
+    [
+     38,
+     15
+    ]
+   ],
+   [
+    [
+     59,
+     15
+    ],
+    [
+     58,
+     15
+    ],
+    [
+     57,
+     15
+    ],
+    [
+     56,
+     15
+    ],
+    [
+     55,
+     15
+    ],
+    [
+     54,
+     16
+    ],
+    [
+     53,
+     17
+    ],
+    [
+     52,
+     18
+    ],
+    [
+     51,
+     19
+    ],
+    [
+     50,
+     20
+    ],
+    [
+     49,
+     21
+    ],
+    [
+     48,
+     22
+    ],
+    [
+     48,
+     23
+    ],
+    [
+     48,
+     24
+    ],
+    [
+     48,
+     25
+    ],
+    [
+     48,
+     26
+    ],
+    [
+     49,
+     27
+    ],
+    [
+     50,
+     27
+    ],
+    [
+     51,
+     27
+    ],
+    [
+     52,
+     27
+    ],
+    [
+     53,
+     27
+    ],
+    [
+     54,
+     28
+    ],
+    [
+     55,
+     29
+    ],
+    [
+     56,
+     30
+    ],
+    [
+     57,
+     31
+    ],
+    [
+     58,
+     31
+    ]
+   ],
+   [
+    [
+     73,
+     45
+    ],
+    [
+     74,
+     46
+    ],
+    [
+     74,
+     47
+    ],
+    [
+     75,
+     48
+    ],
+    [
+     76,
+     48
+    ],
+    [
+     77,
+     48
+    ],
+    [
+     78,
+     48
+    ],
+    [
+     79,
+     48
+    ],
+    [
+     80,
+     48
+    ],
+    [
+     81,
+     48
+    ],
+    [
+     82,
+     48
+    ],
+    [
+     83,
+     49
+    ],
+    [
+     84,
+     50
+    ],
+    [
+     85,
+     51
+    ],
+    [
+     86,
+     52
+    ],
+    [
+     87,
+     53
+    ]
+   ],
+   [
+    [
+     58,
+     31
+    ],
+    [
+     59,
+     31
+    ],
+    [
+     60,
+     31
+    ],
+    [
+     61,
+     32
+    ],
+    [
+     61,
+     33
+    ],
+    [
+     61,
+     34
+    ],
+    [
+     62,
+     35
+    ],
+    [
+     62,
+     36
+    ],
+    [
+     62,
+     37
+    ],
+    [
+     63,
+     38
+    ],
+    [
+     64,
+     39
+    ],
+    [
+     65,
+     40
+    ],
+    [
+     65,
+     41
+    ],
+    [
+     65,
+     42
+    ],
+    [
+     64,
+     43
+    ],
+    [
+     64,
+     44
+    ],
+    [
+     64,
+     45
+    ],
+    [
+     63,
+     46
+    ],
+    [
+     63,
+     47
+    ],
+    [
+     62,
+     48
+    ],
+    [
+     61,
+     49
+    ],
+    [
+     60,
+     48
+    ],
+    [
+     59,
+     48
+    ],
+    [
+     58,
+     48
+    ],
+    [
+     57,
+     48
+    ],
+    [
+     56,
+     47
+    ]
+   ],
+   [
+    [
+     9,
+     34
+    ],
+    [
+     10,
+     35
+    ],
+    [
+     11,
+     36
+    ],
+    [
+     12,
+     36
+    ],
+    [
+     13,
+     36
+    ],
+    [
+     14,
+     36
+    ],
+    [
+     15,
+     36
+    ],
+    [
+     16,
+     36
+    ],
+    [
+     17,
+     36
+    ],
+    [
+     18,
+     36
+    ],
+    [
+     18,
+     35
+    ],
+    [
+     18,
+     34
+    ],
+    [
+     18,
+     33
+    ],
+    [
+     18,
+     32
+    ],
+    [
+     18,
+     31
+    ],
+    [
+     18,
+     30
+    ],
+    [
+     18,
+     29
+    ],
+    [
+     18,
+     28
+    ],
+    [
+     18,
+     27
+    ],
+    [
+     18,
+     26
+    ],
+    [
+     18,
+     25
+    ],
+    [
+     18,
+     24
+    ],
+    [
+     18,
+     23
+    ],
+    [
+     18,
+     22
+    ],
+    [
+     18,
+     21
+    ],
+    [
+     18,
+     20
+    ],
+    [
+     18,
+     19
+    ],
+    [
+     17,
+     18
+    ],
+    [
+     16,
+     17
+    ],
+    [
+     16,
+     16
+    ]
+   ],
+   [
+    [
+     9,
+     80
+    ],
+    [
+     10,
+     80
+    ],
+    [
+     11,
+     80
+    ],
+    [
+     12,
+     79
+    ],
+    [
+     13,
+     79
+    ],
+    [
+     14,
+     79
+    ],
+    [
+     15,
+     79
+    ],
+    [
+     16,
+     79
+    ],
+    [
+     17,
+     79
+    ],
+    [
+     18,
+     78
+    ]
+   ]
+  ]
+ },
+ "updated": {
+  "at": "2026-10-13T14:33:34-03:00",
+  "reason": "adicionado poi-torre-partida"
+ }
+}

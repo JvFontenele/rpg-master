@@ -1,0 +1,22 @@
+# Configuração da campanha. Chaves de topo simples (chave: valor) são lidas por tools/rpg.py.
+id: {{ID}}
+name: {{NAME}}
+system: {{SYSTEM}}
+genre: {{GENRE}}
+tone: {{TONE}}
+created: {{DATE}}
+# Preferências (rpg.py style show|set). Ambientação = o que EXISTE no mundo; estilos = o que recebe mais
+# atenção, NUNCA o que é proibido. Listas separadas por vírgula. Altere com 'rpg.py style set' (fica no histórico).
+setting: {{SETTING}}
+styles: {{STYLES}}
+depth: {{DEPTH}}
+pace: {{PACE}}
+autonomy: {{AUTONOMY}}
+# Quem rola os dados dos PJs: "jogador" (mestre pede e espera) ou "mestre" (rola com a ferramenta, abertamente)
+pc_rolls: mestre
+# Economia mecânica (dinheiro em state/sim/resources.json): "on" para ligar; ausente/off = dinheiro narrativo na ficha
+economy: off
+# Limites de conteúdo / linhas e véus (edite à vontade)
+content_limits: nenhum definido
+# Regras da casa desta campanha (sobrepõem o sistema; liste aqui, uma por linha com "- ")
+house_rules:

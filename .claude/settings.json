@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(python3 tools/rpg.py *)",
+      "Edit(/campaigns/**)",
+      "Read(/campaigns/**)",
+      "Read(/systems/**)",
+      "Read(/templates/**)"
+    ],
+    "ask": [
+      "Bash(python3 tools/rpg.py restore *)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Edit(/.claude/settings.json)",
+      "Edit(/.claude/settings.local.json)",
+      "Edit(/backups/**)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/tools/rpg.py\" status --hook"
+          }
+        ]
+      }
+    ]
+  }
+}

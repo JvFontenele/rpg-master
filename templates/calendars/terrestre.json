@@ -1,0 +1,24 @@
+{
+ "_nota": "Calendário gregoriano com bissextos (regra 4/100/400), ancorado em 1/1/2000 = sábado: datas e dias da semana coincidem com o calendário real de 2000 em diante. Para épocas anteriores a 2000 mude epoch_year e week_offset (antes de 1582 o calendário histórico era o juliano, não suportado). Feriados: nacionais fixos do Brasil; edite à vontade.",
+ "minutes_per_hour": 60,
+ "hours_per_day": 24,
+ "months": ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"],
+ "month_days": [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31],
+ "leap": "gregoriano",
+ "year_label": "",
+ "epoch_year": 2000,
+ "week": ["segunda", "terça", "quarta", "quinta", "sexta", "sábado", "domingo"],
+ "week_offset": 5,
+ "rest_days": ["sábado", "domingo"],
+ "holidays": [
+  {"date": "1/1", "name": "Confraternização Universal"},
+  {"date": "4/21", "name": "Tiradentes"},
+  {"date": "5/1", "name": "Dia do Trabalho"},
+  {"date": "9/7", "name": "Independência"},
+  {"date": "10/12", "name": "Nossa Senhora Aparecida"},
+  {"date": "11/2", "name": "Finados"},
+  {"date": "11/15", "name": "Proclamação da República"},
+  {"date": "11/20", "name": "Consciência Negra"},
+  {"date": "12/25", "name": "Natal"}
+ ]
+}
