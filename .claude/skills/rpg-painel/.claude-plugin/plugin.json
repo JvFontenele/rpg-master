@@ -1,0 +1,1 @@
+{ "name": "rpg-painel", "version": "0.1.0", "description": "Painel da campanha de RPG ativa: ficha do PJ, cena, missões e rolagens (sem segredos do mestre)", "types": "./types/index.d.ts" }
